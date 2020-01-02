@@ -1,0 +1,812 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Board" rel="Chapter" href="Board.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Author" rel="Chapter" href="Author.html">
+<link title="Translate" rel="Chapter" href="Translate.html">
+<link title="Piece" rel="Chapter" href="Piece.html">
+<link title="Move" rel="Chapter" href="Move.html"><title>Index of values</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;</div>
+<h1>Index of values</h1>
+<table>
+<tr><td align="left"><div>A</div></td></tr>
+<tr><td><a href="State.html#VALadd_graveyard">add_graveyard</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">add_graveyard</code> returns <code class="code">st</code> with its board altered to have <code class="code">p</code>'s position
+    set to None.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALadd_piece">add_piece</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">add_piece</code> returns <code class="code">bd</code> with <code class="code">p</code> added.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>B</div></td></tr>
+<tr><td><a href="Piece.html#VALbuild">build</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">build</code> returns a list of positions strictly between <code class="code">from_pos</code>, and 
+    <code class="code">to_pos</code>, using <code class="code">inc</code> to determine the incrementation of positions.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>C</div></td></tr>
+<tr><td><a href="State.html#VALcan_block">can_block</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">can_block</code> returns true if a piece can move between <code class="code">team</code>'s king and 
+    <code class="code">opponent</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALcan_defend">can_defend</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">can_defend</code> returns true if an ally piece of <code class="code">team</code> can move to <code class="code">pos</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALcan_dodge">can_dodge</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">can_dodge</code> returns true if the king of <code class="code">team</code> can move out of check in 
+    <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALcan_promote">can_promote</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">can_promote</code> is true if the last piece moved in <code class="code">st</code> can be promoted.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALcastle">castle</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">castle</code> is the result of castling a piece at <code class="code">pos1</code> to <code class="code">pos2</code> in <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALcastle_help">castle_help</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">castle_help</code> returns true if the indicated team <code class="code">team</code> is in 
+    checkmate in state <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALcastle_positions">castle_positions</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">castle_positions</code> returns a tuple of the resulting positions of a castle,
+    where the previous positions are defined by <code class="code">Some (col1, row1)</code> and 
+    <code class="code">Some (col2, row2)</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Command.html#VALcheck_move">check_move</a> [<a href="Command.html">Command</a>]</td>
+<td><div class="info">
+<p><code class="code">check_move lst str move_type</code> is <code class="code">Move lst</code> if <code class="code">lst</code> holds valid column and 
+    row locations and if move_type is "move".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALcheck_piece">check_piece</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">check_piece</code> is Some p if there is an opposing piece p that can capture 
+    the king of <code class="code">team</code> in <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALcheck_status">check_status</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">check_status</code> checks the check/checkmate status of <code class="code">st</code> and <code class="code">st'</code>,
+    and executes <code class="code">play_msg</code> accordingly, notifying the player if there exists
+    some kind of check/checkmate status.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALcmp_boards">cmp_boards</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">cmp_boards</code> returns true if <code class="code">bd1</code> is the same as <code class="code">bd2</code>, where order
+    of pieces do not matter.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALcmp_states">cmp_states</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">cmp_states</code> returns true if <code class="code">st1</code> and <code class="code">st2</code> are equal.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALcount_graveyard_piece">count_graveyard_piece</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">count_graveyard_piece</code> is the number of captured pieces of rank <code class="code">r</code> and 
+    team <code class="code">team</code> in <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>D</div></td></tr>
+<tr><td><a href="Main.html#VALdec_time">dec_time</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">dec_time</code> returns (w_time', b_time') which depict the time each team
+    has left to play.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>E</div></td></tr>
+<tr><td><a href="State.html#VALen_passant_capture_piece">en_passant_capture_piece</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">en_passant_capture_piece</code> is Some p' where p' is the piece at position
+    Some (col2, row1) of get_board <code class="code">st</code> if: <code class="code">pos2</code> corresponds to Some (col2, row2)., <code class="code">p</code> is a Pawn., <code class="code">p</code> can move to <code class="code">pos2</code> under En Passant rules.
+      Otherwise, is None.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALen_passant_move">en_passant_move</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">en_passant_move st p pos2</code> is the altered state st' with the executed
+    en_passant movement of <code class="code">p</code> moving to <code class="code">pos2</code>, where there does not exist 
+    any piece in <code class="code">pos2</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALexecute_instructions">execute_instructions</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">execute_instructions</code> prints the instructions page at <code class="code">index</code> and
+    prompts for user input.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALexecute_make">execute_make</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">execute_make</code> checks if <code class="code">lst</code> contains a valid promotion rank, and if so,
+    calls <code class="code">execute_promotion</code> to attempt the promotion.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALexecute_promotion">execute_promotion</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">execute_promotion</code> checks if <code class="code">st</code> has a pawn that can be promoted to 
+    <code class="code">rank</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALexecute_start">execute_start</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">execute_start</code> prints the onboarding GUI and prompts for user 
+    input.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>F</div></td></tr>
+<tr><td><a href="Board.html#VALfile_to_board">file_to_board</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">file_to_board</code> converts the contents of d1/.../dn/<code class="code">file_name</code> to a 
+    board, where d1 ...</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>G</div></td></tr>
+<tr><td><a href="State.html#VALget_attacking_pieces">get_attacking_pieces</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">get_attacking_pieces st team pos</code> returns all pieces on the 
+    opposing team of <code class="code">team</code> that can move to position <code class="code">pos</code> in our current 
+    state <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALget_board">get_board</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">get_board st</code> returns st.board.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALget_king">get_king</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">get_king</code> returns the king of <code class="code">team</code> in <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALget_last_move">get_last_move</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">get_last_move st</code> returns the last position moved to.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALget_last_update">get_last_update</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">get_last_update st</code> returns st.last_update.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALget_moves">get_moves</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">get_moves st</code> returns st.moves.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALget_piece">get_piece</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">get_piece</code> returns a piece p in <code class="code">bd</code> such that get_position p = <code class="code">pos</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALget_position">get_position</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">get_position</code> returns the position of <code class="code">p</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALget_positions_between">get_positions_between</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">get_positions_between</code> returns a list of positions strictly between 
+    <code class="code">pos1</code> and <code class="code">pos2</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALget_rank">get_rank</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">get_rank</code> returns the rank of <code class="code">p</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALget_surrounding_positions">get_surrounding_positions</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">get_surrounding_positions</code> returns a list of valid board positions that
+    are one unit away from <code class="code">pos</code> veritically, horizontally, and diagonally.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALget_team">get_team</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">get_team</code> returns the team of <code class="code">p</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALget_turn">get_turn</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">get_turn st</code> returns st.turn.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Translate.html#VALgraveyard_count_to_string">graveyard_count_to_string</a> [<a href="Translate.html">Translate</a>]</td>
+<td><div class="info">
+<p><code class="code">graveyard_count_to_string</code> returns the string form of the number of pieces 
+    matching rank <code class="code">r</code> and team <code class="code">t</code> that are within the graveyard of <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Translate.html#VALgraveyard_row_to_string">graveyard_row_to_string</a> [<a href="Translate.html">Translate</a>]</td>
+<td><div class="info">
+<p><code class="code">graveyard_row_to_string row t st</code> is the string representing a row <code class="code">row</code> 
+    of a piece, team <code class="code">t</code>, and its corresponding count in the graveyard 
+    of <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>H</div></td></tr>
+<tr><td><a href="Author.html#VALhours_worked">hours_worked</a> [<a href="Author.html">Author</a>]</td>
+<td><div class="info">
+<p><code class="code">hours_worked</code> is the number of hours you worked on this assignment.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>I</div></td></tr>
+<tr><td><a href="Piece.html#VALinc_position">inc_position</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">inc_position</code> returns a position pos' which is <code class="code">pos</code> with its column 
+    and row offset by <code class="code">(c_offset, r_offset)</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALinit_board">init_board</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">init_board</code> returns a list of chess pieces in their respective 
+    initial states.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALinit_state">init_state</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">init_state</code> is the initial state of the game.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALinvalid_cmd_msg">invalid_cmd_msg</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">invalid_msg</code> is a string that denotes an invalid command.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALinvalid_ins_msg">invalid_ins_msg</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">invalid_ins_msg</code> is a string that denotes an invalid command while
+    within the instructions portion of the game.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALinvalid_ins_next">invalid_ins_next</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">invalid_ins_next</code> is a string that denotes the end of instructions.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALinvalid_start_msg">invalid_start_msg</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">invalid_start_msg</code> is a string suggesting to type 'Start &lt;timer&gt;'.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALinvalid_timer_msg">invalid_timer_msg</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">invalid_timer_msg</code> is a string suggesting a number &gt; 0'.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALinvalid_view_msg">invalid_view_msg</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">invalid_view_msg</code> is a string suggesting to type 'View instructions'.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALis_blockable">is_blockable</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">is_blockable</code> returns true if <code class="code">p</code> is a piece with a blockable path which
+    includes Rook, Bishop, and Queen.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALis_check">is_check</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">is_check</code> is true if <code class="code">team</code> is in check in <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALis_checkmate">is_checkmate</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">is_checkmate</code> returns true if the indicated team <code class="code">team</code> is in 
+    checkmate in state <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALis_clear">is_clear</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">is_clear lst (col1, row1) (col2, row2) is_in_range</code> returns whether a list
+    of pieces <code class="code">lst</code> contains one or more pieces in between the line drawn from
+    <code class="code">(col1,row1)</code> to <code class="code">(col2,row2)</code> using the <code class="code">is_in_range</code> function.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALis_clear_diagonal">is_clear_diagonal</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">is_clear_diagonal bd pos1 pos2</code> returns if the diagonal path spanned by 
+    <code class="code">pos1</code> and <code class="code">pos2</code> is clear of pieces on <code class="code">bd</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALis_clear_horizontal">is_clear_horizontal</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">is_clear_horizontal bd pos1 pos2</code> returns if the horizontal path spanned by 
+    <code class="code">pos1</code> and <code class="code">pos2</code> is clear of pieces on <code class="code">bd</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALis_clear_vertical">is_clear_vertical</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">is_clear_vertical bd pos1 pos2</code> returns if the vertical path spanned by 
+    <code class="code">pos1</code> and <code class="code">pos2</code> is clear of pieces on <code class="code">bd</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Move.html#VALis_diagonal_move">is_diagonal_move</a> [<a href="Move.html">Move</a>]</td>
+<td><div class="info">
+<p><code class="code">is_diagonal_move</code> returns true if <code class="code">pos1</code> and <code class="code">pos2</code> have equal differences
+    between its rows and columns.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALis_first_move">is_first_move</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">is_first_move</code> returns true if <code class="code">p</code> has not been moved, else is false.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Move.html#VALis_horizontal_move">is_horizontal_move</a> [<a href="Move.html">Move</a>]</td>
+<td><div class="info">
+<p><code class="code">is_horizontal_move</code> is true if <code class="code">pos1</code> and <code class="code">pos2</code> hold the same row and 
+    have different columns.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALis_in_diagonal">is_in_diagonal</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">is_in_diagonal (col1, row1) (col2, row2) p</code> returns if a piece is 
+    located in the diagonal path between <code class="code">(col1,row1)</code> and <code class="code">(col2,row2)</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALis_in_horizontal">is_in_horizontal</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">is_in_horizontal (col1, row1) (col2, row2) p</code> returns if a piece is 
+    located in the horizontal path between <code class="code">(col1,row1)</code> and <code class="code">(col2,row2)</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALis_in_promotion">is_in_promotion</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">is_in_promotion st</code> returns st.in_promotion.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALis_in_vertical">is_in_vertical</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">is_in_vertical (col1, row1) (col2, row2) p</code> returns if a piece is 
+    located in the vertical path between <code class="code">(col1,row1)</code> and <code class="code">(col2,row2)</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALis_pawn">is_pawn</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">is_pawn</code> returns true if <code class="code">p</code> is a Pawn.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALis_piece_at">is_piece_at</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">is_piece_at</code> returns true if there is a piece at <code class="code">pos</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Move.html#VALis_valid_basic_move">is_valid_basic_move</a> [<a href="Move.html">Move</a>]</td>
+<td><div class="info">
+<p><code class="code">is_valid_basic_move</code> returns true if <code class="code">p</code> can move to <code class="code">pos2</code>, where <code class="code">pos2</code>
+    is not its current position.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALis_valid_board_move">is_valid_board_move</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">is_valid_board_move p pos2 bd</code> returns true if <code class="code">p</code> can move to <code class="code">pos2</code> on
+    <code class="code">bd</code>, checking that open positions between <code class="code">p</code> and <code class="code">pos2</code> for pieces that
+    require such clear paths.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Command.html#VALis_valid_letter">is_valid_letter</a> [<a href="Command.html">Command</a>]</td>
+<td><div class="info">
+<p><code class="code">is_valid_letter str</code> is true if the first char of <code class="code">str</code> is a lowercase 
+    letter from a-h, and false otherwise.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALis_valid_move">is_valid_move</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">is_valid_move p pos2 bd</code> returns true if <code class="code">p</code> can move to <code class="code">pos2</code> on
+    <code class="code">bd</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Command.html#VALis_valid_number">is_valid_number</a> [<a href="Command.html">Command</a>]</td>
+<td><div class="info">
+<p><code class="code">is_valid_number str</code> is true if the first char of <code class="code">str</code> is an integer
+    from 1-8, and false otherwise.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALis_valid_position">is_valid_position</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">is_valid_position</code> returns true if <code class="code">pos</code> is a possible position on the
+    board, ie.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Move.html#VALis_vertical_move">is_vertical_move</a> [<a href="Move.html">Move</a>]</td>
+<td><div class="info">
+<p><code class="code">is_vertical_move</code> is true if <code class="code">pos1</code> and <code class="code">pos2</code> hold the same column and 
+    have different rows.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>K</div></td></tr>
+<tr><td><a href="Move.html#VALking_valid_move">king_valid_move</a> [<a href="Move.html">Move</a>]</td>
+<td><div class="info">
+<p><code class="code">king_valid_move</code> returns true if <code class="code">pos1</code> moving to <code class="code">pos2</code> represents
+    a one-space move diagonally, vertically, or horizontally.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Move.html#VALknight_valid_move">knight_valid_move</a> [<a href="Move.html">Move</a>]</td>
+<td><div class="info">
+<p><code class="code">knight_valid_move</code> returns true if <code class="code">pos1</code> moving to <code class="code">pos2</code> represents
+    a L-shaped move of 2-to-1 ratio either horizontally then vertically,
+    or vertically then horizontally.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>L</div></td></tr>
+<tr><td><a href="Translate.html#VALlist_to_result">list_to_result</a> [<a href="Translate.html">Translate</a>]</td>
+<td><div class="info">
+<p><code class="code">list_to_result</code> translates <code class="code">lst</code> into a <code class="code">action</code> command, returning a 
+    new state encapsulated in a Illegal or Legal state.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>M</div></td></tr>
+<tr><td><a href="Main.html#VALmain">main</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">main</code> starts the chess simulation, calling <code class="code">execute_start</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALmove">move</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">move</code> is the result of moving a piece at <code class="code">pos1</code> to <code class="code">pos2</code> in <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALmove_helper">move_helper</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">move_helper st p pos2</code> returns a new state with the executed
+    move request.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>O</div></td></tr>
+<tr><td><a href="Piece.html#VALorder_positions">order_positions</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">order_positions</code> returns (pos, pos') where pos is whichever position of 
+    <code class="code">pos1</code> or <code class="code">pos2</code> comes first, and pos' being the latter.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>P</div></td></tr>
+<tr><td><a href="Command.html#VALparse">parse</a> [<a href="Command.html">Command</a>]</td>
+<td><div class="info">
+<p><code class="code">parse str</code> is the command representation of <code class="code">str</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Command.html#VALparse_phrase">parse_phrase</a> [<a href="Command.html">Command</a>]</td>
+<td><div class="info">
+<p><code class="code">parse_phrase str</code> parses the phrase of <code class="code">str</code> and returns a command
+    representative of such phrase.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALpawn_diagonal_logic">pawn_diagonal_logic</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">pawn_diagonal_logic</code> is true if <code class="code">p</code> can move to <code class="code">pos2</code> in <code class="code">bd</code> under 
+    diagonal pawn capture rules, and false otherwise.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALpawn_row_offset">pawn_row_offset</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">pawn_row_offset</code> is -1 if <code class="code">team</code> is White and 1 if <code class="code">team</code> is Black</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Move.html#VALpawn_valid_move">pawn_valid_move</a> [<a href="Move.html">Move</a>]</td>
+<td><div class="info">
+<p><code class="code">pawn_valid_move</code> returns true if a pawn <code class="code">p</code> can move from <code class="code">pos1</code>
+    to <code class="code">pos2</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALpiece_to_string">piece_to_string</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">piece_to_string</code> returns the string form of a chess piece, determined by 
+    <code class="code">r</code> and <code class="code">t</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALplay_turn">play_turn</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">play_turn</code> prints the entirety of the game gui, depicting both <code class="code">st</code> and
+    the teams' remaining times, <code class="code">w_time</code> and <code class="code">b_time</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALplay_turn_helper">play_turn_helper</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">play_turn_helper</code> exits the game if the current turn's team of <code class="code">st</code> in 
+    checkmate.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALposition_to_string">position_to_string</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">position_to_string</code> returns <code class="code">pos</code> as a string if <code class="code">pos</code> is Some (col, row).</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALpositions_equal">positions_equal</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">positions_equal</code> returns true if <code class="code">pos1</code> and <code class="code">pos2</code> are structurally
+    equal, and both are not None.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALpromote">promote</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">promote</code> is the result of turning the last piece moved in <code class="code">st</code> to hold 
+    rank <code class="code">rank</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALprompt_msg">prompt_msg</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">prompt_msg</code> is a string that prompts an action.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>Q</div></td></tr>
+<tr><td><a href="Move.html#VALqueen_valid_move">queen_valid_move</a> [<a href="Move.html">Move</a>]</td>
+<td><div class="info">
+<p><code class="code">queen_valid_move</code> returns true if <code class="code">pos1</code> moving to <code class="code">pos2</code> is a 
+    horizontal, vertical, or diagonal move.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>R</div></td></tr>
+<tr><td><a href="Piece.html#VALrank_to_string">rank_to_string</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">rank_to_string</code> returns the string of <code class="code">rank</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALread_input">read_input</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">read_input</code> parses user input <code class="code">i</code> on state <code class="code">st</code> and prints the resulting
+    state st' with any changes, should a change occur.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALremove_piece">remove_piece</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">remove_piece</code> returns <code class="code">bd</code> without the piece at <code class="code">pos</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Move.html#VALrook_valid_move">rook_valid_move</a> [<a href="Move.html">Move</a>]</td>
+<td><div class="info">
+<p><code class="code">rook_valid_move</code> returns true if <code class="code">pos1</code> moving to <code class="code">pos2</code> is a 
+    horizontal or vertical move.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>S</div></td></tr>
+<tr><td><a href="State.html#VALset_board">set_board</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">set_board</code> returns <code class="code">st</code> with <code class="code">bd</code> as its board.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALset_piece">set_piece</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">set_piece</code> returns a piece with position <code class="code">pos</code>, rank <code class="code">r</code>, team <code class="code">team</code>, 
+    is_first_move <code class="code">fm</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALset_position">set_position</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">set_position</code> returns a piece p' with the same fields as <code class="code">p</code>, but
+    <code class="code">pos</code> for position, and false for is_first_move.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALset_promotion">set_promotion</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">set_promotion</code> sets the update to <code class="code">st</code> to reflect the promote state.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALset_state">set_state</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">set_state</code> returns a state with board <code class="code">bd</code>, turn <code class="code">turn</code>, last_update <code class="code">lu</code>, 
+    moves <code class="code">m</code>, and in_promotion <code class="code">ip</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALset_turn">set_turn</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">set_turn</code> returns <code class="code">st</code> with <code class="code">turn</code> as its turn.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALset_update">set_update</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">set_update</code> returns <code class="code">st</code> with <code class="code">str</code> as its last_update.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALstart_reply">start_reply</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">start_reply</code> starts the chess game if the argument passed by start is 
+    "game".</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALstring_to_piece">string_to_piece</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">string_to_piece</code> returns Some p where p is a piece with is_first_move 
+    as true, rank and team of <code class="code">str</code>, and position <code class="code">pos</code>, if <code class="code">str</code> denotes
+    a chess piece.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Piece.html#VALstring_to_rank">string_to_rank</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">string_to_rank</code> returns the rank of <code class="code">str</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Board.html#VALstrings_to_pieces">strings_to_pieces</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">strings_to_pieces</code> returns a board with pieces represented in the string 
+    list <code class="code">lst</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALswitch_team">switch_team</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">switch_team</code> returns Black if <code class="code">team</code> is White, or White if <code class="code">team</code> is 
+    Black.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALswitch_turn">switch_turn</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">switch_turn</code> returns a state with turn being the next turn of <code class="code">st</code>.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>T</div></td></tr>
+<tr><td><a href="Piece.html#VALteam_to_string">team_to_string</a> [<a href="Piece.html">Piece</a>]</td>
+<td><div class="info">
+<p><code class="code">team_to_string</code> returns the string of <code class="code">team</code>.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>U</div></td></tr>
+<tr><td><a href="Board.html#VALupdate_board">update_board</a> [<a href="Board.html">Board</a>]</td>
+<td><div class="info">
+<p><code class="code">update_board p pos bd</code> returns a new board with <code class="code">p</code> moved to <code class="code">pos</code>.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="State.html#VALupdate_board_castle">update_board_castle</a> [<a href="State.html">State</a>]</td>
+<td><div class="info">
+<p><code class="code">update_board_castle</code> returns <code class="code">bd</code> with its board altered to contain <code class="code">p1</code> 
+    and <code class="code">p2</code> moved to their respective castled positions.</p>
+
+</div>
+</td></tr>
+<tr><td align="left"><div>V</div></td></tr>
+<tr><td><a href="Move.html#VALvalid_castle">valid_castle</a> [<a href="Move.html">Move</a>]</td>
+<td><div class="info">
+<p><code class="code">valid_castle</code> returns true if: there exists <code class="code">p1</code> and <code class="code">p2</code> that have not moved yet., one of <code class="code">p1</code> and <code class="code">p2</code> is a rook, and the other is a king. , there are no pieces in between <code class="code">p1</code> and <code class="code">p2</code> horizontally on <code class="code">bd</code>.
+      Otherwise, returns false.</p>
+
+</div>
+</td></tr>
+<tr><td><a href="Main.html#VALview_reply">view_reply</a> [<a href="Main.html">Main</a>]</td>
+<td><div class="info">
+<p><code class="code">view_reply</code> prints the first instructions page if the argument passed by
+    view is "instructions".</p>
+
+</div>
+</td></tr>
+</table>
+</body>
+</html>

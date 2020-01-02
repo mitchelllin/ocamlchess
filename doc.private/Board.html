@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="next" href="Command.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Board" rel="Chapter" href="Board.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Author" rel="Chapter" href="Author.html">
+<link title="Translate" rel="Chapter" href="Translate.html">
+<link title="Piece" rel="Chapter" href="Piece.html">
+<link title="Move" rel="Chapter" href="Move.html"><title>Board</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Command.html" title="Command">Next</a>
+</div>
+<h1>Module <a href="type_Board.html">Board</a></h1>
+
+<pre><span id="MODULEBoard"><span class="keyword">module</span> Board</span>: <code class="code">sig</code> <a href="Board.html">..</a> <code class="code">end</code></pre><div class="info module top">
+<div class="info-desc">
+<p>Representation of static chess game board.</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="TYPEt"><span class="keyword">type</span> <code class="type"></code>t</span> = <code class="type"><a href="Piece.html#TYPEpiece">Piece.piece</a> list</code> </pre>
+<div class="info ">
+<div class="info-desc">
+<p><code class="code">t</code> represents the entire chess board, with every chess piece's current 
+     properties.</p>
+
+<p><code class="code">t</code> represents the board, ie. the pieces on the board, and their 
+    respective properties.</p>
+</div>
+</div>
+
+
+<pre><span id="VALstrings_to_pieces"><span class="keyword">val</span> strings_to_pieces</span> : <code class="type">int * int -> <a href="Board.html#TYPEt">t</a> -> string list -> <a href="Board.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">strings_to_pieces</code> returns a board with pieces represented in the string 
+    list <code class="code">lst</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALfile_to_board"><span class="keyword">val</span> file_to_board</span> : <code class="type">string list -> string -> <a href="Board.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">file_to_board</code> converts the contents of d1/.../dn/<code class="code">file_name</code> to a 
+    board, where d1 ... dn are folder names denoted in <code class="code">dir_lst</code>.</p>
+
+<p><code class="code">file_to_board d_lst f</code> returns a board represented by the text of file path 
+    d1/.../dn/<code class="code">f</code>, in which d_lst holds d1...dn.</p>
+</div>
+</div>
+
+<pre><span id="VALinit_board"><span class="keyword">val</span> init_board</span> : <code class="type"><a href="Board.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">init_board</code> returns a list of chess pieces in their respective 
+    initial states.</p>
+
+<p><code class="code">init_board</code> initializes the board, returning a list of all chess pieces 
+    for both teams in their starting positions.</p>
+</div>
+</div>
+
+<pre><span id="VALget_piece"><span class="keyword">val</span> get_piece</span> : <code class="type">(char * int) option -> <a href="Piece.html#TYPEpiece">Piece.piece</a> list -> <a href="Piece.html#TYPEpiece">Piece.piece</a> option</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_piece</code> returns a piece p in <code class="code">bd</code> such that get_position p = <code class="code">pos</code>.</p>
+
+<p><code class="code">get_piece pos bd</code> returns the piece that occupies position <code class="code">pos</code> on the 
+    board <code class="code">bd</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALcmp_boards"><span class="keyword">val</span> cmp_boards</span> : <code class="type">'a list -> 'a list -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">cmp_boards</code> returns true if <code class="code">bd1</code> is the same as <code class="code">bd2</code>, where order
+    of pieces do not matter. Otherwise, returns false.</p>
+
+<p><code class="code">cmp_boards bd1 bd2</code> returns true if the set like lists <code class="code">bd1</code> and <code class="code">bd2</code> are
+    equivalent. Otherwise, returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALadd_piece"><span class="keyword">val</span> add_piece</span> : <code class="type">'a -> 'a list -> 'a list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">add_piece</code> returns <code class="code">bd</code> with <code class="code">p</code> added.</p>
+
+<p><code class="code">add_piece p bd</code> returns a new board with the piece <code class="code">p</code> added.</p>
+</div>
+</div>
+
+<pre><span id="VALremove_piece"><span class="keyword">val</span> remove_piece</span> : <code class="type">(char * int) option -> <a href="Piece.html#TYPEpiece">Piece.piece</a> list -> <a href="Board.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">remove_piece</code> returns <code class="code">bd</code> without the piece at <code class="code">pos</code>.</p>
+
+<p><code class="code">remove_piece pos bd</code> returns a new board with the piece at <code class="code">pos</code> 
+    removed.</p>
+</div>
+</div>
+
+<pre><span id="VALupdate_board"><span class="keyword">val</span> update_board</span> : <code class="type"><a href="Piece.html#TYPEpiece">Piece.piece</a> -> (char * int) option -> <a href="Piece.html#TYPEpiece">Piece.piece</a> list -> <a href="Board.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">update_board p pos bd</code> returns a new board with <code class="code">p</code> moved to <code class="code">pos</code>.</p>
+
+<p><code class="code">update_board p pos bd</code> returns a board bd' with <code class="code">p</code> moved to <code class="code">pos</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALis_piece_at"><span class="keyword">val</span> is_piece_at</span> : <code class="type">(char * int) option -> <a href="Piece.html#TYPEpiece">Piece.piece</a> list -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_piece_at</code> returns true if there is a piece at <code class="code">pos</code>. Otherwise, returns 
+    false.</p>
+
+<p><code class="code">is_piece_at pos bd</code> returns true if there is a piece at <code class="code">pos</code>
+    within <code class="code">bd</code>. Otherwise, returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALis_clear"><span class="keyword">val</span> is_clear</span> : <code class="type">'a list -> 'b * 'c -> 'd * 'e -> ('b * 'c -> 'd * 'e -> 'a -> bool) -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_clear lst (col1, row1) (col2, row2) is_in_range</code> returns whether a list
+    of pieces <code class="code">lst</code> contains one or more pieces in between the line drawn from
+    <code class="code">(col1,row1)</code> to <code class="code">(col2,row2)</code> using the <code class="code">is_in_range</code> function. This 
+    method is a helper for checking if horizontal, vertical, and diagonal
+    paths are clear.</p>
+</div>
+</div>
+
+<pre><span id="VALis_in_horizontal"><span class="keyword">val</span> is_in_horizontal</span> : <code class="type">char * int -> char * int -> <a href="Piece.html#TYPEpiece">Piece.piece</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_in_horizontal (col1, row1) (col2, row2) p</code> returns if a piece is 
+    located in the horizontal path between <code class="code">(col1,row1)</code> and <code class="code">(col2,row2)</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALis_in_vertical"><span class="keyword">val</span> is_in_vertical</span> : <code class="type">char * int -> char * int -> <a href="Piece.html#TYPEpiece">Piece.piece</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_in_vertical (col1, row1) (col2, row2) p</code> returns if a piece is 
+    located in the vertical path between <code class="code">(col1,row1)</code> and <code class="code">(col2,row2)</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALis_in_diagonal"><span class="keyword">val</span> is_in_diagonal</span> : <code class="type">char * int -> char * int -> <a href="Piece.html#TYPEpiece">Piece.piece</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_in_diagonal (col1, row1) (col2, row2) p</code> returns if a piece is 
+    located in the diagonal path between <code class="code">(col1,row1)</code> and <code class="code">(col2,row2)</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALis_clear_vertical"><span class="keyword">val</span> is_clear_vertical</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_clear_vertical bd pos1 pos2</code> returns if the vertical path spanned by 
+    <code class="code">pos1</code> and <code class="code">pos2</code> is clear of pieces on <code class="code">bd</code>.</p>
+
+<p><code class="code">is_clear_vertical bd pos1 pos2</code> is true if the vertical path spanned 
+    by <code class="code">pos1</code> and <code class="code">pos2</code> is clear of pieces on <code class="code">bd</code>. Otherwise, is false.</p>
+</div>
+</div>
+
+<pre><span id="VALis_clear_horizontal"><span class="keyword">val</span> is_clear_horizontal</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_clear_horizontal bd pos1 pos2</code> returns if the horizontal path spanned by 
+    <code class="code">pos1</code> and <code class="code">pos2</code> is clear of pieces on <code class="code">bd</code>.</p>
+
+<p><code class="code">is_clear_horizontal bd pos1 pos2</code> is true if the horizontal path 
+    spanned by <code class="code">pos1</code> and <code class="code">pos2</code> is clear of pieces on <code class="code">bd</code>. Otherwise,
+    is false.</p>
+</div>
+</div>
+
+<pre><span id="VALis_clear_diagonal"><span class="keyword">val</span> is_clear_diagonal</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_clear_diagonal bd pos1 pos2</code> returns if the diagonal path spanned by 
+    <code class="code">pos1</code> and <code class="code">pos2</code> is clear of pieces on <code class="code">bd</code>.</p>
+
+<p><code class="code">is_clear_diagonal bd pos1 pos2</code> is true if the diagonal path spanned 
+    by <code class="code">pos1</code> and <code class="code">pos2</code> is clear of pieces on <code class="code">bd</code>. Otherwise, is false.</p>
+</div>
+</div>
+</body></html>

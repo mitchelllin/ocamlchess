@@ -1,0 +1,442 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Command.html">
+<link rel="next" href="Main.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Board" rel="Chapter" href="Board.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Author" rel="Chapter" href="Author.html">
+<link title="Translate" rel="Chapter" href="Translate.html">
+<link title="Piece" rel="Chapter" href="Piece.html">
+<link title="Move" rel="Chapter" href="Move.html"><title>State</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Command.html" title="Command">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Main.html" title="Main">Next</a>
+</div>
+<h1>Module <a href="type_State.html">State</a></h1>
+
+<pre><span id="MODULEState"><span class="keyword">module</span> State</span>: <code class="code">sig</code> <a href="State.html">..</a> <code class="code">end</code></pre><div class="info module top">
+<div class="info-desc">
+<p>Representation of dynamic chess game state.</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="EXCEPTIONInvalidMove"><span class="keyword">exception</span> InvalidMove</span></pre>
+<div class="info ">
+<div class="info-desc">
+<p>Raised if a move is invalid.</p>
+</div>
+</div>
+
+<pre><span id="EXCEPTIONPieceNotFound"><span class="keyword">exception</span> PieceNotFound</span></pre>
+<div class="info ">
+<div class="info-desc">
+<p>Raised if a piece cannot be found.</p>
+</div>
+</div>
+
+<pre><code><span id="TYPEt"><span class="keyword">type</span> <code class="type"></code>t</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTt.board">board</span>&nbsp;: <code class="type"><a href="Board.html#TYPEt">Board.t</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTt.turn">turn</span>&nbsp;: <code class="type"><a href="Piece.html#TYPEteam">Piece.team</a></code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTt.last_update">last_update</span>&nbsp;: <code class="type">string</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTt.moves">moves</span>&nbsp;: <code class="type">(<a href="Piece.html#TYPEposition">Piece.position</a> * <a href="Piece.html#TYPEposition">Piece.position</a>) list</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTt.in_promotion">in_promotion</span>&nbsp;: <code class="type">bool</code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>The abstract type of values representing the game state.</p>
+</div>
+</div>
+
+
+<pre><code><span id="TYPEresult"><span class="keyword">type</span> <code class="type"></code>result</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTresult.Illegal"><span class="constructor">Illegal</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTresult.Legal"><span class="constructor">Legal</span></span> <span class="keyword">of</span> <code class="type"><a href="State.html#TYPEt">t</a></code></code></td>
+
+</tr></table>
+
+<div class="info ">
+<div class="info-desc">
+<p>The result of executing a command, defined as Illegal or Legal st.</p>
+</div>
+</div>
+
+
+<pre><span id="VALinit_state"><span class="keyword">val</span> init_state</span> : <code class="type"><a href="State.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">init_state</code> is the initial state of the game.</p>
+</div>
+</div>
+
+<pre><span id="VALset_state"><span class="keyword">val</span> set_state</span> : <code class="type"><a href="Board.html#TYPEt">Board.t</a> -><br>       <a href="Piece.html#TYPEteam">Piece.team</a> -><br>       string -> (<a href="Piece.html#TYPEposition">Piece.position</a> * <a href="Piece.html#TYPEposition">Piece.position</a>) list -> bool -> <a href="State.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">set_state</code> returns a state with board <code class="code">bd</code>, turn <code class="code">turn</code>, last_update <code class="code">lu</code>, 
+    moves <code class="code">m</code>, and in_promotion <code class="code">ip</code>.</p>
+
+<p><code class="code">set_state</code> returns a state with the specified inputs.</p>
+</div>
+</div>
+
+<pre><span id="VALget_board"><span class="keyword">val</span> get_board</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="Board.html#TYPEt">Board.t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_board st</code> returns st.board.</p>
+
+<p><code class="code">get_board st</code> is the current board of pieces.</p>
+</div>
+</div>
+
+<pre><span id="VALget_turn"><span class="keyword">val</span> get_turn</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="Piece.html#TYPEteam">Piece.team</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_turn st</code> returns st.turn.</p>
+
+<p><code class="code">get_turn st</code> is the team who's current turn it is to move.</p>
+</div>
+</div>
+
+<pre><span id="VALget_last_update"><span class="keyword">val</span> get_last_update</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_last_update st</code> returns st.last_update.</p>
+
+<p><code class="code">get_last_update st</code> is a string meant to denote any feedback for the gui.
+    ie. If the player successfully moves a piece from (a, 6) to (a, 7), 
+    <code class="code">last_update</code> will be set as "Moved (a, 6) to (a, 7)."</p>
+</div>
+</div>
+
+<pre><span id="VALget_moves"><span class="keyword">val</span> get_moves</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> (<a href="Piece.html#TYPEposition">Piece.position</a> * <a href="Piece.html#TYPEposition">Piece.position</a>) list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_moves st</code> returns st.moves.</p>
+
+<p><code class="code">get_moves st</code> is the list of moves made in <code class="code">st</code>, such that for all 
+    (pi1, pi2), pi1 represents the original position of the piece, and pi2 is 
+    the resulting position. Empty list if no piece has been moved yet.</p>
+</div>
+</div>
+
+<pre><span id="VALis_in_promotion"><span class="keyword">val</span> is_in_promotion</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_in_promotion st</code> returns st.in_promotion.</p>
+
+<p><code class="code">is_in_promotion st</code> is true if <code class="code">st</code> is currently in a piece promotion.
+    Otherwise, is false.</p>
+</div>
+</div>
+
+<pre><span id="VALget_last_move"><span class="keyword">val</span> get_last_move</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="Piece.html#TYPEposition">Piece.position</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_last_move st</code> returns the last position moved to.</p>
+</div>
+</div>
+
+<pre><span id="VALcmp_states"><span class="keyword">val</span> cmp_states</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="State.html#TYPEt">t</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">cmp_states</code> returns true if <code class="code">st1</code> and <code class="code">st2</code> are equal.</p>
+
+<p><code class="code">compare_states st1 st2</code> returns true if st1 and st2 are equal. Otherwise,
+    returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALset_update"><span class="keyword">val</span> set_update</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> string -> <a href="State.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">set_update</code> returns <code class="code">st</code> with <code class="code">str</code> as its last_update.</p>
+
+<p><code class="code">set_update st str</code> returns <code class="code">st</code> with <code class="code">str</code> as its last_update.</p>
+</div>
+</div>
+
+<pre><span id="VALset_turn"><span class="keyword">val</span> set_turn</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="Piece.html#TYPEteam">Piece.team</a> -> <a href="State.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">set_turn</code> returns <code class="code">st</code> with <code class="code">turn</code> as its turn.</p>
+</div>
+</div>
+
+<pre><span id="VALset_board"><span class="keyword">val</span> set_board</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="Board.html#TYPEt">Board.t</a> -> <a href="State.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">set_board</code> returns <code class="code">st</code> with <code class="code">bd</code> as its board.</p>
+
+<p><code class="code">set_board st bd</code> returns <code class="code">st</code> with <code class="code">bd</code> as its board.</p>
+</div>
+</div>
+
+<pre><span id="VALswitch_team"><span class="keyword">val</span> switch_team</span> : <code class="type"><a href="Piece.html#TYPEteam">Piece.team</a> -> <a href="Piece.html#TYPEteam">Piece.team</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">switch_team</code> returns Black if <code class="code">team</code> is White, or White if <code class="code">team</code> is 
+    Black.</p>
+</div>
+</div>
+
+<pre><span id="VALswitch_turn"><span class="keyword">val</span> switch_turn</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="State.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">switch_turn</code> returns a state with turn being the next turn of <code class="code">st</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALadd_graveyard"><span class="keyword">val</span> add_graveyard</span> : <code class="type"><a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="State.html#TYPEt">t</a> -> <a href="State.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">add_graveyard</code> returns <code class="code">st</code> with its board altered to have <code class="code">p</code>'s position
+    set to None.</p>
+</div>
+</div>
+
+<pre><span id="VALcastle_positions"><span class="keyword">val</span> castle_positions</span> : <code class="type">char -> 'a -> char -> 'b -> (char * 'a) option * (char * 'b) option</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">castle_positions</code> returns a tuple of the resulting positions of a castle,
+    where the previous positions are defined by <code class="code">Some (col1, row1)</code> and 
+    <code class="code">Some (col2, row2)</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALupdate_board_castle"><span class="keyword">val</span> update_board_castle</span> : <code class="type"><a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="Board.html#TYPEt">Board.t</a> -> <a href="Board.html#TYPEt">Board.t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">update_board_castle</code> returns <code class="code">bd</code> with its board altered to contain <code class="code">p1</code> 
+    and <code class="code">p2</code> moved to their respective castled positions.</p>
+</div>
+</div>
+
+<pre><span id="VALpawn_row_offset"><span class="keyword">val</span> pawn_row_offset</span> : <code class="type"><a href="Piece.html#TYPEteam">Piece.team</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">pawn_row_offset</code> is -1 if <code class="code">team</code> is White and 1 if <code class="code">team</code> is Black</p>
+</div>
+</div>
+
+<pre><span id="VALen_passant_capture_piece"><span class="keyword">val</span> en_passant_capture_piece</span> : <code class="type"><a href="Piece.html#TYPEpiece">Piece.piece</a> -> (char * int) option -> <a href="State.html#TYPEt">t</a> -> <a href="Piece.html#TYPEpiece">Piece.piece</a> option</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">en_passant_capture_piece</code> is Some p' where p' is the piece at position
+    Some (col2, row1) of get_board <code class="code">st</code> if:</p>
+<ul>
+<li><code class="code">pos2</code> corresponds to Some (col2, row2).</li>
+<li><code class="code">p</code> is a Pawn.</li>
+<li><code class="code">p</code> can move to <code class="code">pos2</code> under En Passant rules.
+      Otherwise, is None.</li>
+</ul>
+</div>
+</div>
+
+<pre><span id="VALpawn_diagonal_logic"><span class="keyword">val</span> pawn_diagonal_logic</span> : <code class="type"><a href="Piece.html#TYPEpiece">Piece.piece</a> -> (char * int) option -> <a href="Piece.html#TYPEpiece">Piece.piece</a> list -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">pawn_diagonal_logic</code> is true if <code class="code">p</code> can move to <code class="code">pos2</code> in <code class="code">bd</code> under 
+    diagonal pawn capture rules, and false otherwise.</p>
+</div>
+</div>
+
+<pre><span id="VALis_valid_board_move"><span class="keyword">val</span> is_valid_board_move</span> : <code class="type"><a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Board.html#TYPEt">Board.t</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_valid_board_move p pos2 bd</code> returns true if <code class="code">p</code> can move to <code class="code">pos2</code> on
+    <code class="code">bd</code>, checking that open positions between <code class="code">p</code> and <code class="code">pos2</code> for pieces that
+    require such clear paths. Otherwise, returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALis_valid_move"><span class="keyword">val</span> is_valid_move</span> : <code class="type"><a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Board.html#TYPEt">Board.t</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_valid_move p pos2 bd</code> returns true if <code class="code">p</code> can move to <code class="code">pos2</code> on
+    <code class="code">bd</code>. Otherwise, returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALget_attacking_pieces"><span class="keyword">val</span> get_attacking_pieces</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="Piece.html#TYPEteam">Piece.team</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Piece.html#TYPEpiece">Piece.piece</a> list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_attacking_pieces st team pos</code> returns all pieces on the 
+    opposing team of <code class="code">team</code> that can move to position <code class="code">pos</code> in our current 
+    state <code class="code">st</code>. Returns None if there are no such pieces.</p>
+</div>
+</div>
+
+<pre><span id="VALget_king"><span class="keyword">val</span> get_king</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="Piece.html#TYPEteam">Piece.team</a> -> <a href="Piece.html#TYPEpiece">Piece.piece</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_king</code> returns the king of <code class="code">team</code> in <code class="code">st</code>. Raises: PieceNotFound if no 
+    king found.</p>
+</div>
+</div>
+
+<pre><span id="VALcheck_piece"><span class="keyword">val</span> check_piece</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="Piece.html#TYPEteam">Piece.team</a> -> <a href="Piece.html#TYPEpiece">Piece.piece</a> option</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">check_piece</code> is Some p if there is an opposing piece p that can capture 
+    the king of <code class="code">team</code> in <code class="code">st</code>. Otherwise, is None.</p>
+
+<p><code class="code">check_piece st team</code> is Some p if p is a piece that is causing the check 
+    status of <code class="code">team</code> (ie. there exists an opposing piece of <code class="code">team</code> that can
+    capture <code class="code">team</code>'s king with a direct move. If no check status is found, is
+    None.</p>
+</div>
+</div>
+
+<pre><span id="VALis_check"><span class="keyword">val</span> is_check</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="Piece.html#TYPEteam">Piece.team</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_check</code> is true if <code class="code">team</code> is in check in <code class="code">st</code>. Otherwise, is false.</p>
+
+<p><code class="code">is_check st team</code> true if <code class="code">team</code> is in check in <code class="code">st</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALcan_dodge"><span class="keyword">val</span> can_dodge</span> : <code class="type"><a href="State.html#TYPEt">t</a> -><br>       <a href="Piece.html#TYPEteam">Piece.team</a> -><br>       (<a href="State.html#TYPEt">t</a> -> (char * int) option -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="State.html#TYPEresult">result</a>) -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">can_dodge</code> returns true if the king of <code class="code">team</code> can move out of check in 
+    <code class="code">st</code>. Otherwise, returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALcan_defend"><span class="keyword">val</span> can_defend</span> : <code class="type"><a href="State.html#TYPEt">t</a> -><br>       <a href="Piece.html#TYPEteam">Piece.team</a> -><br>       <a href="Piece.html#TYPEposition">Piece.position</a> -><br>       (<a href="State.html#TYPEt">t</a> -> (char * int) option -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="State.html#TYPEresult">result</a>) -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">can_defend</code> returns true if an ally piece of <code class="code">team</code> can move to <code class="code">pos</code>. 
+    Otherwise, returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALcan_block"><span class="keyword">val</span> can_block</span> : <code class="type"><a href="State.html#TYPEt">t</a> -><br>       <a href="Piece.html#TYPEteam">Piece.team</a> -><br>       <a href="Piece.html#TYPEpiece">Piece.piece</a> -><br>       (<a href="State.html#TYPEt">t</a> -> (char * int) option -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="State.html#TYPEresult">result</a>) -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">can_block</code> returns true if a piece can move between <code class="code">team</code>'s king and 
+    <code class="code">opponent</code>. Otherwise, returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALis_checkmate"><span class="keyword">val</span> is_checkmate</span> : <code class="type"><a href="State.html#TYPEt">t</a> -><br>       <a href="Piece.html#TYPEteam">Piece.team</a> -><br>       (<a href="State.html#TYPEt">t</a> -> (char * int) option -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="State.html#TYPEresult">result</a>) -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_checkmate</code> returns true if the indicated team <code class="code">team</code> is in 
+    checkmate in state <code class="code">st</code>. Checkmate is defined as being in check but not
+    being able to make a move that will take you out of check.</p>
+
+<p><code class="code">is_checkmate st team move</code> returns true if <code class="code">team</code> is in checkmate in <code class="code">st</code>. 
+    Otherwise, returns false.
+    Checkmate is defined as being in check but not being able to make a move 
+    that will take you out of check.</p>
+</div>
+</div>
+
+<pre><span id="VALcastle_help"><span class="keyword">val</span> castle_help</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="State.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">castle_help</code> returns true if the indicated team <code class="code">team</code> is in 
+    checkmate in state <code class="code">st</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALmove_helper"><span class="keyword">val</span> move_helper</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="State.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">move_helper st p pos2</code> returns a new state with the executed
+    move request.</p>
+</div>
+</div>
+
+<pre><span id="VALen_passant_move"><span class="keyword">val</span> en_passant_move</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="State.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">en_passant_move st p pos2</code> is the altered state st' with the executed
+    en_passant movement of <code class="code">p</code> moving to <code class="code">pos2</code>, where there does not exist 
+    any piece in <code class="code">pos2</code>. <code class="code">en_passant_move</code> calls <code class="code">move_helper</code> if the current 
+    move does not apply to En Passant movement.</p>
+</div>
+</div>
+
+<pre><span id="VALcan_promote"><span class="keyword">val</span> can_promote</span> : <code class="type"><a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="State.html#TYPEt">t</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">can_promote</code> is true if the last piece moved in <code class="code">st</code> can be promoted.</p>
+
+<p><code class="code">can_promote pos team</code> is true if a piece at <code class="code">pos</code> in state <code class="code">t</code> is a 
+    pawn, and has reached the opposite end of the board. Otherwise, is false.</p>
+</div>
+</div>
+
+<pre><span id="VALpromote"><span class="keyword">val</span> promote</span> : <code class="type">'a -> <a href="Piece.html#TYPErank">Piece.rank</a> -> <a href="State.html#TYPEt">t</a> -> <a href="State.html#TYPEresult">result</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">promote</code> is the result of turning the last piece moved in <code class="code">st</code> to hold 
+    rank <code class="code">rank</code>.</p>
+
+<p><code class="code">promote m rank st</code> checks if a pawn at <code class="code">pos</code> (where (_, <code class="code">pos</code>)::t is <code class="code">m</code>) 
+    of the current team in <code class="code">st</code> has moved to the end of the board, and if so, 
+    returns <code class="code">Legal st'</code> with the pawn promoted to <code class="code">rank</code>. 
+    Otherwise, returns <code class="code">Illegal</code>.
+    Raises: PieceNotFound if no prior moves made.</p>
+</div>
+</div>
+
+<pre><span id="VALset_promotion"><span class="keyword">val</span> set_promotion</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> <a href="State.html#TYPEresult">result</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">set_promotion</code> sets the update to <code class="code">st</code> to reflect the promote state.</p>
+</div>
+</div>
+
+<pre><span id="VALmove"><span class="keyword">val</span> move</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> (char * int) option -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="State.html#TYPEresult">result</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">move</code> is the result of moving a piece at <code class="code">pos1</code> to <code class="code">pos2</code> in <code class="code">st</code>.</p>
+
+<p><code class="code">move st pos1 pos2</code> is <code class="code">Legal t'</code> if <code class="code">pos1</code> is the position of piece <code class="code">p1</code> 
+    belonging to the current turn's player, and moving to position <code class="code">pos2</code> is a 
+    valid move or kill for <code class="code">p1</code>, where <code class="code">t'</code> is a new state reflecting such 
+    change. Otherwise, is <code class="code">Illegal</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALcastle"><span class="keyword">val</span> castle</span> : <code class="type"><a href="State.html#TYPEt">t</a> -> (char * int) option -> (char * int) option -> <a href="State.html#TYPEresult">result</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">castle</code> is the result of castling a piece at <code class="code">pos1</code> to <code class="code">pos2</code> in <code class="code">st</code>.</p>
+
+<p><code class="code">castle st pos1 pos2</code> is <code class="code">Legal t'</code> if the pieces at <code class="code">pos1</code> and <code class="code">pos2</code> can 
+    castle in <code class="code">st</code>, and <code class="code">t'</code> reflects such a change. Otherwise, is <code class="code">Illegal</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALcount_graveyard_piece"><span class="keyword">val</span> count_graveyard_piece</span> : <code class="type"><a href="Piece.html#TYPErank">Piece.rank</a> -> <a href="Piece.html#TYPEteam">Piece.team</a> -> <a href="State.html#TYPEt">t</a> -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">count_graveyard_piece</code> is the number of captured pieces of rank <code class="code">r</code> and 
+    team <code class="code">team</code> in <code class="code">st</code>.</p>
+
+<p><code class="code">count_graveyard_piece r team st</code> returns the number of pieces that are
+    captured in state <code class="code">st</code> that are of rank <code class="code">r</code> and belong to team <code class="code">team</code>.</p>
+</div>
+</div>
+</body></html>

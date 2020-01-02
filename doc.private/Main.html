@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="State.html">
+<link rel="next" href="Author.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Board" rel="Chapter" href="Board.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Author" rel="Chapter" href="Author.html">
+<link title="Translate" rel="Chapter" href="Translate.html">
+<link title="Piece" rel="Chapter" href="Piece.html">
+<link title="Move" rel="Chapter" href="Move.html"><title>Main</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="State.html" title="State">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Author.html" title="Author">Next</a>
+</div>
+<h1>Module <a href="type_Main.html">Main</a></h1>
+
+<pre><span id="MODULEMain"><span class="keyword">module</span> Main</span>: <code class="code">sig</code> <a href="Main.html">..</a> <code class="code">end</code></pre><div class="info module top">
+<div class="info-desc">
+<p>The main entry point for the chess interface.</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="VALprompt_msg"><span class="keyword">val</span> prompt_msg</span> : <code class="type">string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">prompt_msg</code> is a string that prompts an action.</p>
+</div>
+</div>
+
+<pre><span id="VALinvalid_ins_msg"><span class="keyword">val</span> invalid_ins_msg</span> : <code class="type">string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">invalid_ins_msg</code> is a string that denotes an invalid command while
+    within the instructions portion of the game.</p>
+</div>
+</div>
+
+<pre><span id="VALinvalid_ins_next"><span class="keyword">val</span> invalid_ins_next</span> : <code class="type">string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">invalid_ins_next</code> is a string that denotes the end of instructions.</p>
+</div>
+</div>
+
+<pre><span id="VALinvalid_cmd_msg"><span class="keyword">val</span> invalid_cmd_msg</span> : <code class="type">string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">invalid_msg</code> is a string that denotes an invalid command.</p>
+</div>
+</div>
+
+<pre><span id="VALinvalid_start_msg"><span class="keyword">val</span> invalid_start_msg</span> : <code class="type">string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">invalid_start_msg</code> is a string suggesting to type 'Start &lt;timer&gt;'.</p>
+</div>
+</div>
+
+<pre><span id="VALinvalid_timer_msg"><span class="keyword">val</span> invalid_timer_msg</span> : <code class="type">string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">invalid_timer_msg</code> is a string suggesting a number &gt; 0'.</p>
+</div>
+</div>
+
+<pre><span id="VALinvalid_view_msg"><span class="keyword">val</span> invalid_view_msg</span> : <code class="type">string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">invalid_view_msg</code> is a string suggesting to type 'View instructions'.</p>
+</div>
+</div>
+
+<pre><span id="VALexecute_promotion"><span class="keyword">val</span> execute_promotion</span> : <code class="type"><a href="State.html#TYPEt">State.t</a> -> <a href="Piece.html#TYPErank">Piece.rank</a> -> (string -> <a href="State.html#TYPEt">State.t</a> -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">execute_promotion</code> checks if <code class="code">st</code> has a pawn that can be promoted to 
+    <code class="code">rank</code>. If so, executes <code class="code">play_msg</code> on a new st' representing <code class="code">st</code> 
+    with the pawn promoted. Otherwise, repeats the turn of <code class="code">st</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALexecute_make"><span class="keyword">val</span> execute_make</span> : <code class="type">string list -> <a href="State.html#TYPEt">State.t</a> -> (string -> <a href="State.html#TYPEt">State.t</a> -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">execute_make</code> checks if <code class="code">lst</code> contains a valid promotion rank, and if so,
+    calls <code class="code">execute_promotion</code> to attempt the promotion.</p>
+</div>
+</div>
+
+<pre><span id="VALcheck_status"><span class="keyword">val</span> check_status</span> : <code class="type"><a href="State.html#TYPEt">State.t</a> -> <a href="State.html#TYPEt">State.t</a> -> (string -> <a href="State.html#TYPEt">State.t</a> -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">check_status</code> checks the check/checkmate status of <code class="code">st</code> and <code class="code">st'</code>,
+    and executes <code class="code">play_msg</code> accordingly, notifying the player if there exists
+    some kind of check/checkmate status.</p>
+</div>
+</div>
+
+<pre><span id="VALdec_time"><span class="keyword">val</span> dec_time</span> : <code class="type">float -> float -> <a href="Piece.html#TYPEteam">Piece.team</a> -> float -> float -> float * float</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">dec_time</code> returns (w_time', b_time') which depict the time each team
+    has left to play.</p>
+</div>
+</div>
+
+<pre><span id="VALread_input"><span class="keyword">val</span> read_input</span> : <code class="type">string -> <a href="State.html#TYPEt">State.t</a> -> (string -> <a href="State.html#TYPEt">State.t</a> -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">read_input</code> parses user input <code class="code">i</code> on state <code class="code">st</code> and prints the resulting
+    state st' with any changes, should a change occur.</p>
+</div>
+</div>
+
+<pre><span id="VALplay_turn_helper"><span class="keyword">val</span> play_turn_helper</span> : <code class="type"><a href="State.html#TYPEt">State.t</a> -> (string -> <a href="State.html#TYPEt">State.t</a> -> unit) -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">play_turn_helper</code> exits the game if the current turn's team of <code class="code">st</code> in 
+    checkmate. Otherwise, prompts for user input.</p>
+</div>
+</div>
+
+<pre><span id="VALplay_turn"><span class="keyword">val</span> play_turn</span> : <code class="type"><a href="Piece.html#TYPEteam">Piece.team</a> -> <a href="State.html#TYPEt">State.t</a> -> float -> float -> float -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">play_turn</code> prints the entirety of the game gui, depicting both <code class="code">st</code> and
+    the teams' remaining times, <code class="code">w_time</code> and <code class="code">b_time</code>.</p>
+</div>
+</div>
+
+<pre><span id="VALexecute_instructions"><span class="keyword">val</span> execute_instructions</span> : <code class="type">int -> (string -> unit -> unit) -> string -> unit -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">execute_instructions</code> prints the instructions page at <code class="code">index</code> and
+    prompts for user input.</p>
+</div>
+</div>
+
+<pre><span id="VALstart_reply"><span class="keyword">val</span> start_reply</span> : <code class="type">(string -> unit -> unit) -> string -> string list -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">start_reply</code> starts the chess game if the argument passed by start is 
+    "game". Otherwise, reprints the home screen.</p>
+</div>
+</div>
+
+<pre><span id="VALview_reply"><span class="keyword">val</span> view_reply</span> : <code class="type">(string -> unit -> unit) -> string -> string list -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">view_reply</code> prints the first instructions page if the argument passed by
+    view is "instructions". Otherwise, reprints the home screen.</p>
+</div>
+</div>
+
+<pre><span id="VALexecute_start"><span class="keyword">val</span> execute_start</span> : <code class="type">string -> unit -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">execute_start</code> prints the onboarding GUI and prompts for user 
+    input.</p>
+</div>
+</div>
+
+<pre><span id="VALmain"><span class="keyword">val</span> main</span> : <code class="type">unit -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">main</code> starts the chess simulation, calling <code class="code">execute_start</code>.</p>
+
+<p><code class="code">main ()</code> starts the chess game, by prompting its home/onboarding page.</p>
+</div>
+</div>
+</body></html>

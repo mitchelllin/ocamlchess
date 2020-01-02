@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="previous" href="Piece.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of exceptions" rel=Appendix href="index_exceptions.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Board" rel="Chapter" href="Board.html">
+<link title="Command" rel="Chapter" href="Command.html">
+<link title="State" rel="Chapter" href="State.html">
+<link title="Main" rel="Chapter" href="Main.html">
+<link title="Author" rel="Chapter" href="Author.html">
+<link title="Translate" rel="Chapter" href="Translate.html">
+<link title="Piece" rel="Chapter" href="Piece.html">
+<link title="Move" rel="Chapter" href="Move.html"><title>Move</title>
+</head>
+<body>
+<div class="navbar"><a class="pre" href="Piece.html" title="Piece">Previous</a>
+&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;</div>
+<h1>Module <a href="type_Move.html">Move</a></h1>
+
+<pre><span id="MODULEMove"><span class="keyword">module</span> Move</span>: <code class="code">sig</code> <a href="Move.html">..</a> <code class="code">end</code></pre><div class="info module top">
+<div class="info-desc">
+<p>Representation of movement validity checks.</p>
+</div>
+</div>
+<hr width="100%">
+
+<pre><span id="VALis_vertical_move"><span class="keyword">val</span> is_vertical_move</span> : <code class="type"><a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_vertical_move</code> is true if <code class="code">pos1</code> and <code class="code">pos2</code> hold the same column and 
+    have different rows. 
+    Note: Does not check if <code class="code">pos1</code> and <code class="code">pos2</code> are legal positions on a board.</p>
+
+<p><code class="code">is_vertical_move pos1 pos2</code> is true if <code class="code">pos1</code> to <code class="code">pos2</code> represents
+    a vertical move. Otherwise, is false.</p>
+</div>
+</div>
+
+<pre><span id="VALis_horizontal_move"><span class="keyword">val</span> is_horizontal_move</span> : <code class="type"><a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_horizontal_move</code> is true if <code class="code">pos1</code> and <code class="code">pos2</code> hold the same row and 
+    have different columns.
+    Note: Does not check if <code class="code">pos1</code> and <code class="code">pos2</code> are legal positions on a board.</p>
+
+<p><code class="code">is_horizontal_move pos1 pos2</code> is true if <code class="code">pos1</code> to <code class="code">pos2</code> represents
+    a horizontal move. Otherwise, is false.</p>
+</div>
+</div>
+
+<pre><span id="VALis_diagonal_move"><span class="keyword">val</span> is_diagonal_move</span> : <code class="type"><a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_diagonal_move</code> returns true if <code class="code">pos1</code> and <code class="code">pos2</code> have equal differences
+    between its rows and columns.
+    Note: Does not check if <code class="code">pos1</code> and <code class="code">pos2</code> are legal positions on a board.</p>
+
+<p><code class="code">is_diagonal_move pos1 pos2</code> is true if <code class="code">pos1</code> to <code class="code">pos2</code> represents
+    a diagonal move. Otherwise, is false.</p>
+</div>
+</div>
+
+<pre><span id="VALpawn_valid_move"><span class="keyword">val</span> pawn_valid_move</span> : <code class="type"><a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">pawn_valid_move</code> returns true if a pawn <code class="code">p</code> can move from <code class="code">pos1</code>
+    to <code class="code">pos2</code>. Otherwise, returns false. 
+    Note: <code class="code">pawn_valid_move</code> is only for basic pawn movement, and does not
+    account for diagonal capturing of an opposing piece (this is done in 
+    state.ml).</p>
+</div>
+</div>
+
+<pre><span id="VALking_valid_move"><span class="keyword">val</span> king_valid_move</span> : <code class="type"><a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">king_valid_move</code> returns true if <code class="code">pos1</code> moving to <code class="code">pos2</code> represents
+    a one-space move diagonally, vertically, or horizontally. Otherwise,
+    returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALknight_valid_move"><span class="keyword">val</span> knight_valid_move</span> : <code class="type"><a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">knight_valid_move</code> returns true if <code class="code">pos1</code> moving to <code class="code">pos2</code> represents
+    a L-shaped move of 2-to-1 ratio either horizontally then vertically,
+    or vertically then horizontally. Otherwise, returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALqueen_valid_move"><span class="keyword">val</span> queen_valid_move</span> : <code class="type"><a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">queen_valid_move</code> returns true if <code class="code">pos1</code> moving to <code class="code">pos2</code> is a 
+    horizontal, vertical, or diagonal move. Otherwise, returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALrook_valid_move"><span class="keyword">val</span> rook_valid_move</span> : <code class="type"><a href="Piece.html#TYPEposition">Piece.position</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">rook_valid_move</code> returns true if <code class="code">pos1</code> moving to <code class="code">pos2</code> is a 
+    horizontal or vertical move. Otherwise, returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALis_valid_basic_move"><span class="keyword">val</span> is_valid_basic_move</span> : <code class="type"><a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="Piece.html#TYPEposition">Piece.position</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">is_valid_basic_move</code> returns true if <code class="code">p</code> can move to <code class="code">pos2</code>, where <code class="code">pos2</code>
+    is not its current position. Otherwise, returns false.</p>
+
+<p><code class="code">is_valid_basic_move p pos2</code> returns true if the piece <code class="code">p</code> can move to 
+    <code class="code">pos2</code> as defined by chess rules. Otherwise, returns false.</p>
+</div>
+</div>
+
+<pre><span id="VALvalid_castle"><span class="keyword">val</span> valid_castle</span> : <code class="type"><a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="Piece.html#TYPEpiece">Piece.piece</a> -> <a href="Board.html#TYPEt">Board.t</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">valid_castle</code> returns true if:</p>
+<ul>
+<li>there exists <code class="code">p1</code> and <code class="code">p2</code> that have not moved yet.</li>
+<li>one of <code class="code">p1</code> and <code class="code">p2</code> is a rook, and the other is a king. </li>
+<li>there are no pieces in between <code class="code">p1</code> and <code class="code">p2</code> horizontally on <code class="code">bd</code>.
+      Otherwise, returns false.</li>
+</ul>
+
+<p><code class="code">valid_castle p1 p2 bd</code> returns true if the piece <code class="code">p1</code> can castle with <code class="code">p2</code> 
+    under castling rules. Otherwise, returns false.</p>
+</div>
+</div>
+</body></html>

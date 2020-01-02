@@ -6,5 +6,10 @@ Chess made in OCaml for the Terminal.
 
 Use <make play> in the terminal to start the game.
   
+Use <start 300> to start the game with 5 minutes per player.
+
+Use <view instructions> to read how to play.
+  
 Use <move a b c d> to move a piece from (a,b) to (c,d).
 Positions/Coordinates behave like traditional chess positions (a,1) - (h,8)
+ 

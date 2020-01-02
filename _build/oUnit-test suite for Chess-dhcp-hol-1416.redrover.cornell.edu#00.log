@@ -1,0 +1,1004 @@
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Runner: sequential
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Chooser: simple
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration suite_name = "test suite for Chess"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration cache_filename = "/Users/jiehonglin/Documents/GitHub/ms/chess/_build/oUnit-$(suite_name).cache"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration display = "true"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration results_style_1_X = "false"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration verbose = "false"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration health_check_interval = "1."
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration testdata_dir = "none"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration chooser = "simple"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration output_html_dir = "none"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration processes_kill_period = "5."
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration runner = "sequential"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration shards = "2"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration processes_grace_period = "5."
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration log_encoding = "utf-8"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration output_junit_file = "none"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Configuration output_file = "/Users/jiehonglin/Documents/GitHub/ms/chess/_build/oUnit-$(suite_name)-$(shard_id).log"
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:0:Non-check: castling board long..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:0:Non-check: castling board long. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:0:Non-check: castling board long..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:1:Non-check: castling board short..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:1:Non-check: castling board short. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:1:Non-check: castling board short..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:2:Non-check: init board..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:2:Non-check: init board. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:2:Non-check: init board..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:3:Check: check1.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:3:Check: check1.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:3:Check: check1.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:4:Check: check2.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:4:Check: check2.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:4:Check: check2.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:5:Check: check3.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:5:Check: check3.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:5:Check: check3.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:6:Check: checkmate1.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:6:Check: checkmate1.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:6:Check: checkmate1.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:7:Checkmate on Anastasia's.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:7:Checkmate on Anastasia's is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:7:Checkmate on Anastasia's.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:8:Checkmate Anderssen's.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:8:Checkmate Anderssen's is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:8:Checkmate Anderssen's.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:9:Checkmate Arabian's.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:9:Checkmate Arabian's is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:9:Checkmate Arabian's.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:10:Checkmate Back-Rank.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:10:Checkmate Back-Rank is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:10:Checkmate Back-Rank.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:11:Checkmate Bishop-Knight.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:11:Checkmate Bishop-Knight is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:11:Checkmate Bishop-Knight.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:12:Checkmate BlackBurne's.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:12:Checkmate BlackBurne's is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:12:Checkmate BlackBurne's.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:13:Checkmate Blind Swine.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:13:Checkmate Blind Swine is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:13:Checkmate Blind Swine.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:14:Checkmate Boden's.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:14:Checkmate Boden's is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:14:Checkmate Boden's.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:15:Checkmate Box.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:15:Checkmate Box is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:15:Checkmate Box.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:16:Checkmate Corner.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:16:Checkmate Corner is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:16:Checkmate Corner.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:17:Checkmate Cozio.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:17:Checkmate Cozio is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:17:Checkmate Cozio.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:18:Checkmate Damiano-bishop.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:18:Checkmate Damiano-bishop is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:18:Checkmate Damiano-bishop.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:19:Checkmate Damiano.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:19:Checkmate Damiano is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:19:Checkmate Damiano.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:20:Checkmate Dave & Goliath.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:20:Checkmate Dave & Goliath is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:20:Checkmate Dave & Goliath.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:21:Checkmate Double Bishop.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:21:Checkmate Double Bishop is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:21:Checkmate Double Bishop.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:22:Checkmate Epaullete.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:22:Checkmate Epaullete is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:22:Checkmate Epaullete.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:23:Checkmate Greco.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:23:Checkmate Greco is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:23:Checkmate Greco.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:24:Checkmate Hook.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:24:Checkmate Hook is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:24:Checkmate Hook.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:25:Checkmate Kill Box.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:25:Checkmate Kill Box is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:25:Checkmate Kill Box.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:26:Checkmate King & 2 Bishop.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:26:Checkmate King & 2 Bishop is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:26:Checkmate King & 2 Bishop.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:27:Checkmate King & 2 Knight.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:27:Checkmate King & 2 Knight is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:27:Checkmate King & 2 Knight.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:28:Checkmate Legal.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:28:Checkmate Legal is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:28:Checkmate Legal.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:29:Checkmate Lolli.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:29:Checkmate Lolli is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:29:Checkmate Lolli.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:30:Checkmate Max Lange.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:30:Checkmate Max Lange is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:30:Checkmate Max Lange.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:31:Checkmate Mayet.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:31:Checkmate Mayet is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:31:Checkmate Mayet.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:32:Checkmate Morphy.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:32:Checkmate Morphy is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:32:Checkmate Morphy.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:33:Checkmate Opera.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:33:Checkmate Opera is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:33:Checkmate Opera.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:34:Checkmate Pillsbury.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:34:Checkmate Pillsbury is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:34:Checkmate Pillsbury.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:35:Checkmate Queen.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:35:Checkmate Queen is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:35:Checkmate Queen.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:36:Checkmate Reti.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:36:Checkmate Reti is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:36:Checkmate Reti.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:37:Checkmate Smothered.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:37:Checkmate Smothered is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:37:Checkmate Smothered.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:38:Checkmate Suffocation.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:38:Checkmate Suffocation is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:38:Checkmate Suffocation.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:39:Checkmate Swallowtail.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:39:Checkmate Swallowtail is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:39:Checkmate Swallowtail.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:40:Non-Checkmate: check1.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:40:Non-Checkmate: check1.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:40:Non-Checkmate: check1.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:41:Non-Checkmate: check2.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:41:Non-Checkmate: check2.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:41:Non-Checkmate: check2.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:42:Non-Checkmate: check3.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:42:Non-Checkmate: check3.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:42:Non-Checkmate: check3.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:43:Non-Checkmate: castle1.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:43:Non-Checkmate: castle1.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:43:Non-Checkmate: castle1.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:44:Non-Checkmate: starter.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:44:Non-Checkmate: starter.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:44:Non-Checkmate: starter.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:45:Non-Checkmate: castle2.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:45:Non-Checkmate: castle2.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:45:Non-Checkmate: castle2.txt.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:46:get_piece: position occupied..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:46:get_piece: position occupied. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:46:get_piece: position occupied..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:47:get_piece: position vacant..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:47:get_piece: position vacant. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:47:get_piece: position vacant..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:48:remove_piece: piece successfully removed from board..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:48:remove_piece: piece successfully removed from board. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:48:remove_piece: piece successfully removed from board..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:49:remove_piece: no piece at position on board..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:49:remove_piece: no piece at position on board. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:49:remove_piece: no piece at position on board..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:50:add_piece: piece successfully added to board..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:50:add_piece: piece successfully added to board. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:50:add_piece: piece successfully added to board..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:51:update_board: piece is successfully moved..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:51:update_board: piece is successfully moved. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:51:update_board: piece is successfully moved..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:52:is_piece_at: piece at position exists..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:52:is_piece_at: piece at position exists. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:52:is_piece_at: piece at position exists..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:53:is_piece_at: piece at position does not exist..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:53:is_piece_at: piece at position does not exist. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:53:is_piece_at: piece at position does not exist..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:54:file_to_board: Raise if no file found..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:54:file_to_board: Raise if no file found. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:54:file_to_board: Raise if no file found..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:55:cmp_boards: Compare equal boards..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:55:cmp_boards: Compare equal boards. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:55:cmp_boards: Compare equal boards..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:56:cmp_boards: Compare inequal boards..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:56:cmp_boards: Compare inequal boards. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:56:cmp_boards: Compare inequal boards..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:57:is_clear_horzontal: horizontal path clear..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:57:is_clear_horzontal: horizontal path clear. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:57:is_clear_horzontal: horizontal path clear..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:58:is_clear_horzontal: horizontal path not clear..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:58:is_clear_horzontal: horizontal path not clear. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:58:is_clear_horzontal: horizontal path not clear..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:59:is_clear_horzontal: first position not provided..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:59:is_clear_horzontal: first position not provided. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:59:is_clear_horzontal: first position not provided..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:60:is_clear_horzontal: second position not provided..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:60:is_clear_horzontal: second position not provided. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:60:is_clear_horzontal: second position not provided..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:61:is_clear_vertical: vertical path clear..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:61:is_clear_vertical: vertical path clear. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:61:is_clear_vertical: vertical path clear..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:62:is_clear_vertical: vertical path not clear..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:62:is_clear_vertical: vertical path not clear. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:62:is_clear_vertical: vertical path not clear..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:63:is_clear_vertical: first position not provided..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:63:is_clear_vertical: first position not provided. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:63:is_clear_vertical: first position not provided..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:64:is_clear_vertical: second position not provided..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:64:is_clear_vertical: second position not provided. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:64:is_clear_vertical: second position not provided..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:65:is_clear_diagonal: diagonal path clear..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:65:is_clear_diagonal: diagonal path clear. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:65:is_clear_diagonal: diagonal path clear..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:66:is_clear_diagonal: diagonal path not clear..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:66:is_clear_diagonal: diagonal path not clear. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:66:is_clear_diagonal: diagonal path not clear..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:67:is_clear_diagonal: first position not provided..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:67:is_clear_diagonal: first position not provided. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:67:is_clear_diagonal: first position not provided..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:68:is_clear_diagonal: second position not provided..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:68:is_clear_diagonal: second position not provided. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:68:is_clear_diagonal: second position not provided..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:69:Test move with boundary letters..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:69:Test move with boundary letters. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:69:Test move with boundary letters..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:70:Test castle with boundary letters..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:70:Test castle with boundary letters. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:70:Test castle with boundary letters..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:71:Test move while inside boundaries..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:71:Test move while inside boundaries. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:71:Test move while inside boundaries..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:72:Test castle while inside boundaries..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:72:Test castle while inside boundaries. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:72:Test castle while inside boundaries..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:73:Test move with whitespace..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:73:Test move with whitespace. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:73:Test move with whitespace..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:74:Test castle with whitespace..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:74:Test castle with whitespace. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:74:Test castle with whitespace..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:75:Test start.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:75:Test start is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:75:Test start.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:76:Test help.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:76:Test help is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:76:Test help.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:77:Test view.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:77:Test view is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:77:Test view.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:78:Test back.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:78:Test back is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:78:Test back.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:79:Test next.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:79:Test next is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:79:Test next.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:80:Test make.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:80:Test make is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:80:Test make.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:81:Test checkmate.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:81:Test checkmate is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:81:Test checkmate.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:82:Test quit..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:82:Test quit. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:82:Test quit..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:83:Test quit with whitespace..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:83:Test quit with whitespace. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:83:Test quit with whitespace..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:84:Test invalid move - row..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:84:Test invalid move - row. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:84:Test invalid move - row..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:85:Test invalid move - column..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:85:Test invalid move - column. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:85:Test invalid move - column..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:86:Test invalid castle - row..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:86:Test invalid castle - row. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:86:Test invalid castle - row..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:87:Test invalid castle - column..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:87:Test invalid castle - column. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:87:Test invalid castle - column..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:88:Test invalid command..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:88:Test invalid command. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:88:Test invalid command..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:89:Test invalid command - empty string..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:89:Test invalid command - empty string. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:89:Test invalid command - empty string..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:90:is_vertical_move: None passed..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:90:is_vertical_move: None passed. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:90:is_vertical_move: None passed..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:91:is_vertical_move: same position..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:91:is_vertical_move: same position. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:91:is_vertical_move: same position..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:92:is_vertical_move: vertical positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:92:is_vertical_move: vertical positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:92:is_vertical_move: vertical positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:93:is_vertical_move: vertical positions (flipped)..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:93:is_vertical_move: vertical positions (flipped). is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:93:is_vertical_move: vertical positions (flipped)..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:94:is_vertical_move: horizontal positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:94:is_vertical_move: horizontal positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:94:is_vertical_move: horizontal positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:95:is_vertical_move: different columns and rows..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:95:is_vertical_move: different columns and rows. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:95:is_vertical_move: different columns and rows..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:96:is_horizontal_move: None passed..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:96:is_horizontal_move: None passed. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:96:is_horizontal_move: None passed..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:97:is_horizontal_move: same position..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:97:is_horizontal_move: same position. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:97:is_horizontal_move: same position..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:98:is_horizontal_move: vertical positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:98:is_horizontal_move: vertical positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:98:is_horizontal_move: vertical positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:99:is_horizontal_move: horizontal positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:99:is_horizontal_move: horizontal positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:99:is_horizontal_move: horizontal positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:100:is_horizontal_move: horizontal positions (flipped)..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:100:is_horizontal_move: horizontal positions (flipped). is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:100:is_horizontal_move: horizontal positions (flipped)..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:101:is_horizontal_move: different columns and rows..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:101:is_horizontal_move: different columns and rows. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:101:is_horizontal_move: different columns and rows..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:102:is_diagonal_move: None passed..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:102:is_diagonal_move: None passed. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:102:is_diagonal_move: None passed..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:103:is_diagonal_move: same position..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:103:is_diagonal_move: same position. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:103:is_diagonal_move: same position..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:104:is_diagonal_move: vertical positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:104:is_diagonal_move: vertical positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:104:is_diagonal_move: vertical positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:105:is_diagonal_move: horizontal positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:105:is_diagonal_move: horizontal positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:105:is_diagonal_move: horizontal positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:106:is_diagonal_move: diagonal positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:106:is_diagonal_move: diagonal positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:106:is_diagonal_move: diagonal positions..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:107:is_diagonal_move: diagonal positions (flipped)..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:107:is_diagonal_move: diagonal positions (flipped). is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:107:is_diagonal_move: diagonal positions (flipped)..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:108:is_diagonal_move: different columns and rows..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:108:is_diagonal_move: different columns and rows. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:108:is_diagonal_move: different columns and rows..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:109:is_valid_basic_move: same position..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:109:is_valid_basic_move: same position. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:109:is_valid_basic_move: same position..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:110:is_valid_basic_move: pawn - position None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:110:is_valid_basic_move: pawn - position None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:110:is_valid_basic_move: pawn - position None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:111:is_valid_basic_move: pawn - double step, first move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:111:is_valid_basic_move: pawn - double step, first move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:111:is_valid_basic_move: pawn - double step, first move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:112:is_valid_basic_move: pawn - double step, not first move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:112:is_valid_basic_move: pawn - double step, not first move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:112:is_valid_basic_move: pawn - double step, not first move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:113:is_valid_basic_move: pawn - one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:113:is_valid_basic_move: pawn - one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:113:is_valid_basic_move: pawn - one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:114:is_valid_basic_move: pawn - one step, wrong direction..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:114:is_valid_basic_move: pawn - one step, wrong direction. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:114:is_valid_basic_move: pawn - one step, wrong direction..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:115:is_valid_basic_move: pawn - horizontal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:115:is_valid_basic_move: pawn - horizontal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:115:is_valid_basic_move: pawn - horizontal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:116:is_valid_basic_move: rook - position None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:116:is_valid_basic_move: rook - position None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:116:is_valid_basic_move: rook - position None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:117:is_valid_basic_move: rook - vertical move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:117:is_valid_basic_move: rook - vertical move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:117:is_valid_basic_move: rook - vertical move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:118:is_valid_basic_move: rook - horizontal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:118:is_valid_basic_move: rook - horizontal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:118:is_valid_basic_move: rook - horizontal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:119:is_valid_basic_move: rook - diagonal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:119:is_valid_basic_move: rook - diagonal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:119:is_valid_basic_move: rook - diagonal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:120:is_valid_basic_move: rook - not vertical/horizontal/diagonal..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:120:is_valid_basic_move: rook - not vertical/horizontal/diagonal. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:120:is_valid_basic_move: rook - not vertical/horizontal/diagonal..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:121:is_valid_basic_move: bishop - position None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:121:is_valid_basic_move: bishop - position None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:121:is_valid_basic_move: bishop - position None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:122:is_valid_basic_move: bishop - vertical move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:122:is_valid_basic_move: bishop - vertical move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:122:is_valid_basic_move: bishop - vertical move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:123:is_valid_basic_move: bishop - horizontal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:123:is_valid_basic_move: bishop - horizontal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:123:is_valid_basic_move: bishop - horizontal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:124:is_valid_basic_move: bishop - diagonal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:124:is_valid_basic_move: bishop - diagonal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:124:is_valid_basic_move: bishop - diagonal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:125:is_valid_basic_move: bishop - not vertical/horizontal/diagonal..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:125:is_valid_basic_move: bishop - not vertical/horizontal/diagonal. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:125:is_valid_basic_move: bishop - not vertical/horizontal/diagonal..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:126:is_valid_basic_move: knight - position None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:126:is_valid_basic_move: knight - position None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:126:is_valid_basic_move: knight - position None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:127:is_valid_basic_move: knight - vertical move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:127:is_valid_basic_move: knight - vertical move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:127:is_valid_basic_move: knight - vertical move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:128:is_valid_basic_move: knight - horizontal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:128:is_valid_basic_move: knight - horizontal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:128:is_valid_basic_move: knight - horizontal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:129:is_valid_basic_move: knight - diagonal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:129:is_valid_basic_move: knight - diagonal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:129:is_valid_basic_move: knight - diagonal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:130:is_valid_basic_move: knight - valid knight move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:130:is_valid_basic_move: knight - valid knight move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:130:is_valid_basic_move: knight - valid knight move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:131:is_valid_basic_move: queen - position None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:131:is_valid_basic_move: queen - position None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:131:is_valid_basic_move: queen - position None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:132:is_valid_basic_move: queen - vertical move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:132:is_valid_basic_move: queen - vertical move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:132:is_valid_basic_move: queen - vertical move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:133:is_valid_basic_move: queen - horizontal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:133:is_valid_basic_move: queen - horizontal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:133:is_valid_basic_move: queen - horizontal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:134:is_valid_basic_move: queen - diagonal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:134:is_valid_basic_move: queen - diagonal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:134:is_valid_basic_move: queen - diagonal move..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:135:is_valid_basic_move: queen - not vertical/horizontal/diagonal..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:135:is_valid_basic_move: queen - not vertical/horizontal/diagonal. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:135:is_valid_basic_move: queen - not vertical/horizontal/diagonal..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:136:is_valid_basic_move: king - vertical move - position None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:136:is_valid_basic_move: king - vertical move - position None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:136:is_valid_basic_move: king - vertical move - position None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:137:is_valid_basic_move: king - vertical move - one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:137:is_valid_basic_move: king - vertical move - one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:137:is_valid_basic_move: king - vertical move - one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:138:is_valid_basic_move: king - vertical move - more than one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:138:is_valid_basic_move: king - vertical move - more than one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:138:is_valid_basic_move: king - vertical move - more than one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:139:is_valid_basic_move: king - horizontal move - one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:139:is_valid_basic_move: king - horizontal move - one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:139:is_valid_basic_move: king - horizontal move - one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:140:is_valid_basic_move: king - horizontal move - more than one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:140:is_valid_basic_move: king - horizontal move - more than one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:140:is_valid_basic_move: king - horizontal move - more than one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:141:is_valid_basic_move: king - diagonal move - one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:141:is_valid_basic_move: king - diagonal move - one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:141:is_valid_basic_move: king - diagonal move - one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:142:is_valid_basic_move: king - diagonal move - more than one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:142:is_valid_basic_move: king - diagonal move - more than one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:142:is_valid_basic_move: king - diagonal move - more than one step..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:143:is_valid_basic_move: king - not vertical/horizontal/diagonal..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:143:is_valid_basic_move: king - not vertical/horizontal/diagonal. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:143:is_valid_basic_move: king - not vertical/horizontal/diagonal..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:144:valid_castle: none passed..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:144:valid_castle: none passed. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:144:valid_castle: none passed..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:145:valid_castle: pieces in between..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:145:valid_castle: pieces in between. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:145:valid_castle: pieces in between..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:146:valid_castle: short castle..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:146:valid_castle: short castle. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:146:valid_castle: short castle..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:147:valid_castle: long castle..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:147:valid_castle: long castle. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:147:valid_castle: long castle..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:148:position: Some pos..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:148:position: Some pos. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:148:position: Some pos..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:149:position: None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:149:position: None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:149:position: None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:150:rank: Pawn..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:150:rank: Pawn. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:150:rank: Pawn..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:151:rank: Rook..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:151:rank: Rook. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:151:rank: Rook..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:152:rank: Bishop..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:152:rank: Bishop. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:152:rank: Bishop..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:153:rank: Knight..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:153:rank: Knight. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:153:rank: Knight..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:154:rank: Queen..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:154:rank: Queen. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:154:rank: Queen..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:155:rank: King..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:155:rank: King. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:155:rank: King..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:156:team: Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:156:team: Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:156:team: Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:157:team: White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:157:team: White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:157:team: White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:158:first move: false..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:158:first move: false. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:158:first move: false..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:159:first move: true..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:159:first move: true. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:159:first move: true..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:160:set position: Pawn..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:160:set position: Pawn. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:160:set position: Pawn..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:161:position: invalid (None)..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:161:position: invalid (None). is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:161:position: invalid (None)..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:162:position: valid (Some ('a', 1))..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:162:position: valid (Some ('a', 1)). is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:162:position: valid (Some ('a', 1))..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:163:position: invalid column..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:163:position: invalid column. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:163:position: invalid column..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:164:position: invalid row..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:164:position: invalid row. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:164:position: invalid row..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:165:is_pawn: true..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:165:is_pawn: true. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:165:is_pawn: true..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:166:is_pawn: false..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:166:is_pawn: false. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:166:is_pawn: false..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:167:block: Pawn..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:167:block: Pawn. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:167:block: Pawn..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:168:block: Knight..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:168:block: Knight. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:168:block: Knight..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:169:block: Rook..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:169:block: Rook. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:169:block: Rook..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:170:block: Bishop..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:170:block: Bishop. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:170:block: Bishop..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:171:block: Queen..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:171:block: Queen. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:171:block: Queen..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:172:block: King..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:172:block: King. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:172:block: King..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:173:get_surrounding_positions: None position used..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:173:get_surrounding_positions: None position used. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:173:get_surrounding_positions: None position used..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:174:get_surrounding_positions: positions returned..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:174:get_surrounding_positions: positions returned. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:174:get_surrounding_positions: positions returned..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:175:get_positions_between: None position used..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:175:get_positions_between: None position used. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:175:get_positions_between: None position used..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:176:get_positions_between: same column..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:176:get_positions_between: same column. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:176:get_positions_between: same column..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:177:get_positions_between: same row..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:177:get_positions_between: same row. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:177:get_positions_between: same row..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:178:get_positions_between: diagonal..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:178:get_positions_between: diagonal. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:178:get_positions_between: diagonal..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:179:get_positions_between: no positions in between..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:179:get_positions_between: no positions in between. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:179:get_positions_between: no positions in between..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:180:string_to_rank: Pawn..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:180:string_to_rank: Pawn. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:180:string_to_rank: Pawn..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:181:string_to_rank: Knight..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:181:string_to_rank: Knight. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:181:string_to_rank: Knight..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:182:string_to_rank: Rook..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:182:string_to_rank: Rook. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:182:string_to_rank: Rook..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:183:string_to_rank: Bishop..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:183:string_to_rank: Bishop. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:183:string_to_rank: Bishop..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:184:string_to_rank: Queen..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:184:string_to_rank: Queen. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:184:string_to_rank: Queen..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:185:string_to_rank: King..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:185:string_to_rank: King. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:185:string_to_rank: King..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:186:string_to_rank: None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:186:string_to_rank: None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:186:string_to_rank: None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:187:rank_to_string: Pawn..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:187:rank_to_string: Pawn. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:187:rank_to_string: Pawn..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:188:rank_to_string: Knight..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:188:rank_to_string: Knight. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:188:rank_to_string: Knight..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:189:rank_to_string: Rook..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:189:rank_to_string: Rook. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:189:rank_to_string: Rook..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:190:rank_to_string: Bishop..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:190:rank_to_string: Bishop. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:190:rank_to_string: Bishop..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:191:rank_to_string: Queen..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:191:rank_to_string: Queen. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:191:rank_to_string: Queen..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:192:rank_to_string: King..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:192:rank_to_string: King. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:192:rank_to_string: King..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:193:team_to_string: White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:193:team_to_string: White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:193:team_to_string: White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:194:team_to_string: Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:194:team_to_string: Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:194:team_to_string: Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:195:position_to_string: Some pos..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:195:position_to_string: Some pos. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:195:position_to_string: Some pos..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:196:position_to_string: None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:196:position_to_string: None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:196:position_to_string: None..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:197:piece_to_string: Pawn, Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:197:piece_to_string: Pawn, Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:197:piece_to_string: Pawn, Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:198:piece_to_string: Pawn, White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:198:piece_to_string: Pawn, White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:198:piece_to_string: Pawn, White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:199:piece_to_string: King, Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:199:piece_to_string: King, Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:199:piece_to_string: King, Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:200:piece_to_string: King, White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:200:piece_to_string: King, White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:200:piece_to_string: King, White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:201:piece_to_string: Queen, Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:201:piece_to_string: Queen, Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:201:piece_to_string: Queen, Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:202:piece_to_string: Queen, White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:202:piece_to_string: Queen, White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:202:piece_to_string: Queen, White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:203:piece_to_string: Knight, Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:203:piece_to_string: Knight, Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:203:piece_to_string: Knight, Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:204:piece_to_string: Knight, White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:204:piece_to_string: Knight, White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:204:piece_to_string: Knight, White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:205:piece_to_string: Rook, Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:205:piece_to_string: Rook, Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:205:piece_to_string: Rook, Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:206:piece_to_string: Rook, White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:206:piece_to_string: Rook, White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:206:piece_to_string: Rook, White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:207:piece_to_string: Bishop, Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:207:piece_to_string: Bishop, Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:207:piece_to_string: Bishop, Black..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:208:piece_to_string: Bishop, White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:208:piece_to_string: Bishop, White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:208:piece_to_string: Bishop, White..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:209:string_to_piece: string representative of piece..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:209:string_to_piece: string representative of piece. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:209:string_to_piece: string representative of piece..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:210:string_to_piece: string not representative of piece..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:210:string_to_piece: string not representative of piece. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:210:string_to_piece: string not representative of piece..
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:211:tests init_state, set_state, and get_board.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:211:tests init_state, set_state, and get_board is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:211:tests init_state, set_state, and get_board.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:212:tests cmp_boards false.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:212:tests cmp_boards false is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:212:tests cmp_boards false.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:213:tests initial states with cmp_states.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:213:tests initial states with cmp_states is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:213:tests initial states with cmp_states.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:214:tests failed cmp_states.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:214:tests failed cmp_states is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:214:tests failed cmp_states.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:215:tests get_turn on White first turn.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:215:tests get_turn on White first turn is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:215:tests get_turn on White first turn.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:216:tests get_turn on Black.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:216:tests get_turn on Black is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:216:tests get_turn on Black.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:217:tests get_turn on White after 2nd turn.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:217:tests get_turn on White after 2nd turn is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:217:tests get_turn on White after 2nd turn.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:218:tests is_in_promotion before.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:218:tests is_in_promotion before is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:218:tests is_in_promotion before.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:219:tests is_in_promotion during.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:219:tests is_in_promotion during is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:219:tests is_in_promotion during.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:220:tests is_in_promotion during.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:220:tests is_in_promotion during is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:220:tests is_in_promotion during.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:221:tests is_in_promotion before.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:221:tests is_in_promotion before is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:221:tests is_in_promotion before.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:222:tests is_in_promotion during.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:222:tests is_in_promotion during is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:222:tests is_in_promotion during.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:223:tests is_in_promotion after.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:223:tests is_in_promotion after is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:223:tests is_in_promotion after.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:224:tests is_in_promotion message.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:224:tests is_in_promotion message is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:224:tests is_in_promotion message.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:225:tests is_in_promotion after.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:225:tests is_in_promotion after is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:225:tests is_in_promotion after.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:226:tests is_in_promotion after.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:226:tests is_in_promotion after is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:226:tests is_in_promotion after.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:227:tests is_in_promotion_2 message.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:227:tests is_in_promotion_2 message is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:227:tests is_in_promotion_2 message.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:228:tests get_last_update after first move.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:228:tests get_last_update after first move is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:228:tests get_last_update after first move.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:229:tests en_passant moves.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:229:tests en_passant moves is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:229:tests en_passant moves.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:230:tests castling long.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:230:tests castling long is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:230:tests castling long.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:231:tests castling short.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:231:tests castling short is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:231:tests castling short.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:232:tests castling long reversed.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:232:tests castling long reversed is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:232:tests castling long reversed.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:233:tests castling short reversed.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:233:tests castling short reversed is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:233:tests castling short reversed.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:234:tests set_update.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:234:tests set_update is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:234:tests set_update.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:235:tests cmp_states true.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:235:tests cmp_states true is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:235:tests cmp_states true.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:236:tests cmp_states false.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:236:tests cmp_states false is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:236:tests cmp_states false.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:237:tests count_graveyard_piece on starter w queen.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:237:tests count_graveyard_piece on starter w queen is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:237:tests count_graveyard_piece on starter w queen.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:238:tests count_graveyard_piece on starter w rook.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:238:tests count_graveyard_piece on starter w rook is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:238:tests count_graveyard_piece on starter w rook.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:239:tests count_graveyard_pieceon starter w knight.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:239:tests count_graveyard_pieceon starter w knight is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:239:tests count_graveyard_pieceon starter w knight.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:240:tests count_graveyard_pieceon starter w pawn.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:240:tests count_graveyard_pieceon starter w pawn is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:240:tests count_graveyard_pieceon starter w pawn.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:241:tests count_graveyard_piece on starter w bishop.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:241:tests count_graveyard_piece on starter w bishop is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:241:tests count_graveyard_piece on starter w bishop.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:242:tests count_graveyard_piece on before move.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:242:tests count_graveyard_piece on before move is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:242:tests count_graveyard_piece on before move.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Start test test suite for Chess:243:tests count_graveyard_piece on after move.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:243:tests count_graveyard_piece on after move is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: End test test suite for Chess:243:tests count_graveyard_piece on after move.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: ==============
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Summary:
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:243:tests count_graveyard_piece on after move is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:242:tests count_graveyard_piece on before move is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:241:tests count_graveyard_piece on starter w bishop is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:240:tests count_graveyard_pieceon starter w pawn is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:239:tests count_graveyard_pieceon starter w knight is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:238:tests count_graveyard_piece on starter w rook is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:237:tests count_graveyard_piece on starter w queen is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:236:tests cmp_states false is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:235:tests cmp_states true is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:234:tests set_update is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:233:tests castling short reversed is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:232:tests castling long reversed is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:231:tests castling short is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:230:tests castling long is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:229:tests en_passant moves is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:228:tests get_last_update after first move is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:227:tests is_in_promotion_2 message is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:226:tests is_in_promotion after is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:225:tests is_in_promotion after is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:224:tests is_in_promotion message is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:223:tests is_in_promotion after is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:222:tests is_in_promotion during is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:221:tests is_in_promotion before is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:220:tests is_in_promotion during is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:219:tests is_in_promotion during is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:218:tests is_in_promotion before is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:217:tests get_turn on White after 2nd turn is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:216:tests get_turn on Black is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:215:tests get_turn on White first turn is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:214:tests failed cmp_states is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:213:tests initial states with cmp_states is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:212:tests cmp_boards false is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:211:tests init_state, set_state, and get_board is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:210:string_to_piece: string not representative of piece. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:209:string_to_piece: string representative of piece. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:208:piece_to_string: Bishop, White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:207:piece_to_string: Bishop, Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:206:piece_to_string: Rook, White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:205:piece_to_string: Rook, Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:204:piece_to_string: Knight, White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:203:piece_to_string: Knight, Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:202:piece_to_string: Queen, White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:201:piece_to_string: Queen, Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:200:piece_to_string: King, White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:199:piece_to_string: King, Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:198:piece_to_string: Pawn, White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:197:piece_to_string: Pawn, Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:196:position_to_string: None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:195:position_to_string: Some pos. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:194:team_to_string: Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:193:team_to_string: White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:192:rank_to_string: King. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:191:rank_to_string: Queen. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:190:rank_to_string: Bishop. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:189:rank_to_string: Rook. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:188:rank_to_string: Knight. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:187:rank_to_string: Pawn. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:186:string_to_rank: None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:185:string_to_rank: King. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:184:string_to_rank: Queen. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:183:string_to_rank: Bishop. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:182:string_to_rank: Rook. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:181:string_to_rank: Knight. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:180:string_to_rank: Pawn. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:179:get_positions_between: no positions in between. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:178:get_positions_between: diagonal. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:177:get_positions_between: same row. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:176:get_positions_between: same column. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:175:get_positions_between: None position used. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:174:get_surrounding_positions: positions returned. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:173:get_surrounding_positions: None position used. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:172:block: King. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:171:block: Queen. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:170:block: Bishop. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:169:block: Rook. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:168:block: Knight. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:167:block: Pawn. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:166:is_pawn: false. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:165:is_pawn: true. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:164:position: invalid row. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:163:position: invalid column. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:162:position: valid (Some ('a', 1)). is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:161:position: invalid (None). is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:160:set position: Pawn. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:159:first move: true. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:158:first move: false. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:157:team: White. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:156:team: Black. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:155:rank: King. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:154:rank: Queen. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:153:rank: Knight. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:152:rank: Bishop. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:151:rank: Rook. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:150:rank: Pawn. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:149:position: None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:148:position: Some pos. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:147:valid_castle: long castle. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:146:valid_castle: short castle. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:145:valid_castle: pieces in between. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:144:valid_castle: none passed. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:143:is_valid_basic_move: king - not vertical/horizontal/diagonal. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:142:is_valid_basic_move: king - diagonal move - more than one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:141:is_valid_basic_move: king - diagonal move - one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:140:is_valid_basic_move: king - horizontal move - more than one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:139:is_valid_basic_move: king - horizontal move - one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:138:is_valid_basic_move: king - vertical move - more than one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:137:is_valid_basic_move: king - vertical move - one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:136:is_valid_basic_move: king - vertical move - position None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:135:is_valid_basic_move: queen - not vertical/horizontal/diagonal. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:134:is_valid_basic_move: queen - diagonal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:133:is_valid_basic_move: queen - horizontal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:132:is_valid_basic_move: queen - vertical move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:131:is_valid_basic_move: queen - position None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:130:is_valid_basic_move: knight - valid knight move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:129:is_valid_basic_move: knight - diagonal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:128:is_valid_basic_move: knight - horizontal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:127:is_valid_basic_move: knight - vertical move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:126:is_valid_basic_move: knight - position None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:125:is_valid_basic_move: bishop - not vertical/horizontal/diagonal. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:124:is_valid_basic_move: bishop - diagonal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:123:is_valid_basic_move: bishop - horizontal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:122:is_valid_basic_move: bishop - vertical move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:121:is_valid_basic_move: bishop - position None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:120:is_valid_basic_move: rook - not vertical/horizontal/diagonal. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:119:is_valid_basic_move: rook - diagonal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:118:is_valid_basic_move: rook - horizontal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:117:is_valid_basic_move: rook - vertical move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:116:is_valid_basic_move: rook - position None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:115:is_valid_basic_move: pawn - horizontal move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:114:is_valid_basic_move: pawn - one step, wrong direction. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:113:is_valid_basic_move: pawn - one step. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:112:is_valid_basic_move: pawn - double step, not first move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:111:is_valid_basic_move: pawn - double step, first move. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:110:is_valid_basic_move: pawn - position None. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:109:is_valid_basic_move: same position. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:108:is_diagonal_move: different columns and rows. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:107:is_diagonal_move: diagonal positions (flipped). is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:106:is_diagonal_move: diagonal positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:105:is_diagonal_move: horizontal positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:104:is_diagonal_move: vertical positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:103:is_diagonal_move: same position. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:102:is_diagonal_move: None passed. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:101:is_horizontal_move: different columns and rows. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:100:is_horizontal_move: horizontal positions (flipped). is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:99:is_horizontal_move: horizontal positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:98:is_horizontal_move: vertical positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:97:is_horizontal_move: same position. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:96:is_horizontal_move: None passed. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:95:is_vertical_move: different columns and rows. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:94:is_vertical_move: horizontal positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:93:is_vertical_move: vertical positions (flipped). is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:92:is_vertical_move: vertical positions. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:91:is_vertical_move: same position. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:90:is_vertical_move: None passed. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:89:Test invalid command - empty string. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:88:Test invalid command. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:87:Test invalid castle - column. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:86:Test invalid castle - row. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:85:Test invalid move - column. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:84:Test invalid move - row. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:83:Test quit with whitespace. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:82:Test quit. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:81:Test checkmate is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:80:Test make is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:79:Test next is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:78:Test back is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:77:Test view is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:76:Test help is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:75:Test start is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:74:Test castle with whitespace. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:73:Test move with whitespace. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:72:Test castle while inside boundaries. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:71:Test move while inside boundaries. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:70:Test castle with boundary letters. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:69:Test move with boundary letters. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:68:is_clear_diagonal: second position not provided. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:67:is_clear_diagonal: first position not provided. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:66:is_clear_diagonal: diagonal path not clear. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:65:is_clear_diagonal: diagonal path clear. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:64:is_clear_vertical: second position not provided. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:63:is_clear_vertical: first position not provided. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:62:is_clear_vertical: vertical path not clear. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:61:is_clear_vertical: vertical path clear. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:60:is_clear_horzontal: second position not provided. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:59:is_clear_horzontal: first position not provided. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:58:is_clear_horzontal: horizontal path not clear. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:57:is_clear_horzontal: horizontal path clear. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:56:cmp_boards: Compare inequal boards. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:55:cmp_boards: Compare equal boards. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:54:file_to_board: Raise if no file found. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:53:is_piece_at: piece at position does not exist. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:52:is_piece_at: piece at position exists. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:51:update_board: piece is successfully moved. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:50:add_piece: piece successfully added to board. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:49:remove_piece: no piece at position on board. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:48:remove_piece: piece successfully removed from board. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:47:get_piece: position vacant. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:46:get_piece: position occupied. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:45:Non-Checkmate: castle2.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:44:Non-Checkmate: starter.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:43:Non-Checkmate: castle1.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:42:Non-Checkmate: check3.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:41:Non-Checkmate: check2.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:40:Non-Checkmate: check1.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:39:Checkmate Swallowtail is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:38:Checkmate Suffocation is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:37:Checkmate Smothered is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:36:Checkmate Reti is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:35:Checkmate Queen is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:34:Checkmate Pillsbury is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:33:Checkmate Opera is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:32:Checkmate Morphy is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:31:Checkmate Mayet is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:30:Checkmate Max Lange is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:29:Checkmate Lolli is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:28:Checkmate Legal is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:27:Checkmate King & 2 Knight is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:26:Checkmate King & 2 Bishop is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:25:Checkmate Kill Box is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:24:Checkmate Hook is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:23:Checkmate Greco is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:22:Checkmate Epaullete is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:21:Checkmate Double Bishop is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:20:Checkmate Dave & Goliath is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:19:Checkmate Damiano is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:18:Checkmate Damiano-bishop is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:17:Checkmate Cozio is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:16:Checkmate Corner is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:15:Checkmate Box is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:14:Checkmate Boden's is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:13:Checkmate Blind Swine is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:12:Checkmate BlackBurne's is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:11:Checkmate Bishop-Knight is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:10:Checkmate Back-Rank is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:9:Checkmate Arabian's is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:8:Checkmate Anderssen's is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:7:Checkmate on Anastasia's is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:6:Check: checkmate1.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:5:Check: check3.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:4:Check: check2.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:3:Check: check1.txt is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:2:Non-check: init board. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:1:Non-check: castling board short. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Test test suite for Chess:0:Non-check: castling board long. is successful.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Ran: 244 tests in: 0.13 seconds.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Cases: 244.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Tried: 244.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Errors: 0.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Failures: 0.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Skip: 0.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Todo: 0.
+2019-12-10T23:05:28+00:00 dhcp-hol-1416.redrover.cornell.edu#00 I: Timeout: 0.
